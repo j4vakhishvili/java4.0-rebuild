@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J4vakhishvili - Digital Portfolio</title>
+    <link rel="icon" href="assets/icons/webicon.png">
+    <link rel="stylesheet" href="assets/style/default.css">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/header.css">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <a class="logo" href="index.html">J4VAKHISHVILI</a>
+            <div class="menu" onclick="openNav()"><div class="menu-icon"></div></div>
+        </div>
+    </header>
+    <nav>
+        <div class="container nav">
+            <div class="menu" onclick="closeNav()"><div class="close-icon"></div></div>
+            <div class="navigation">
+                <a href="#" class="link on" data-text="მთავარი">მთავარი</a>
+                <a href="#" class="link" data-text="პროექტები">პროექტები</a>
+                <a href="#" class="link" data-text="რეზიუმე">რეზიუმე</a>
+                <a href="#" class="link" data-text="კონტაქტი">კონტაქტი</a>
+                <div class="nm-colors">
+                    <ul class="colorbox">
+                        <li class="black" style="background: #000;"><div class="nm-icon"><input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"></div></li>
+                        <li class="red" style="background: #E21E2C;"></li>
+                        <li class="orange" style="background: #E85F1A;"></li>
+                        <li class="yellow" style="background: #EA9E18;"></li>
+                        <li class="green" style="background: #4DE51C;"></li>
+                        <li class="cyan" style="background: #1A9AE8;"></li>
+                        <li class="blue" style="background: #1C1CE5;"></li>
+                        <li class="purple" style="background: #9F1EE2;"></li>
+                        <li class="pink" style="background: #E21E2C;"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <img src="assets/media/gallery/default.svg" alt="J4vakhishvili" class="image">
+        <div class="index-box">
+            <div class="index-box-content">
+                <h2 class="index-box-title">Who am I?</h2>
+                <p class="index-box-desc">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
+                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.</p>
+            </div>
+            <div class="index-box-skills">
+                <div class="skill">
+                    <div class="skill-icon gd"></div> <p>Graphic Designer</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon fddev"></div> <p>FrontEnd Developer</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon udev"></div> <p>Unity Developer</p>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon pg"></div> <p>Photographer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script/darkmode.js"></script>
+    <script src="assets/script/navigation.js"></script>
+</body>
+</html>

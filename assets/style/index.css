@@ -1,0 +1,98 @@
+.main{
+    padding-top: 205px;
+}
+
+.image{
+    width: 1148px;
+    height: auto;
+    z-index: 1;
+}
+
+.index-box{
+    width: 890px;
+    height: 670px;
+    background: #EAEAEA;
+    position: absolute;
+    right: 56px;
+    margin-top: 75px;
+}
+
+.index-box-content{
+    width: 530px;
+    float: right;
+    margin-right: 47px;
+}
+
+.index-box-title{
+    font-family: 'main', sans-serif;
+    font-size: 72px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+.index-box-desc{
+    font-family: 'bog-m', sans-serif;
+    font-size: 30px;
+    opacity: 0.7;
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.index-box-skills{
+    width: 802px;
+    height: 24px;
+    float: left;
+    margin-left: 50px;
+}
+
+.skill-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.gd{
+    background: url(../icons/graphicdesigner-icon.svg);
+    display: inline-flex;
+}
+
+.fddev{
+    background: url(../icons/frontenddev-icon.svg);
+    display: inline-flex;
+}
+
+.udev{
+    background: url(../icons/unitydev-icon.svg);
+    display: inline-flex;
+}
+
+.pg{
+    background: url(../icons/photographer-icon.svg);
+    display: inline-flex;
+}
+
+.skill{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skill p{
+    display: inline-flex;
+    margin: 0;
+    font-family: 'bog-m', sans-serif;
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.skill:not(:first-child){
+    margin-left: 53px;
+}
+
+[data-theme="dark"] .index-box {
+    color: rgb(233, 233, 233);
+    background: #2B2B2B;
+    transition: 0.3s;
+}
