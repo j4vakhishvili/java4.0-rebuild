@@ -50,26 +50,26 @@
     width: 24px;
     height: 24px;
 }
-
+/* 
 .gd{
-    background: url(../icons/graphicdesigner-icon.svg);
+    background: url(../icons/coloredicons/red/graphicdesigner-icon.svg);
     display: inline-flex;
 }
 
 .fddev{
-    background: url(../icons/frontenddev-icon.svg);
+    background: url(../icons/coloredicons/red/frontenddev-icon.svg);
     display: inline-flex;
 }
 
 .udev{
-    background: url(../icons/unitydev-icon.svg);
+    background: url(../icons/coloredicons/red/unitydev-icon.svg);
     display: inline-flex;
 }
 
 .pg{
-    background: url(../icons/photographer-icon.svg);
+    background: url(../icons/coloredicons/red/photographer-icon.svg);
     display: inline-flex;
-}
+} */
 
 .skill{
     display: inline-flex;
