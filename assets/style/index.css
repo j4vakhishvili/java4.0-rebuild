@@ -96,3 +96,42 @@
     background: #2B2B2B;
     transition: 0.3s;
 }
+
+@media only screen and (max-width: 1540px) {
+    .image{width: 934px;} .main {padding-top: 164px;}
+    .index-box {
+        width: 712px;
+        height: 536px;
+        right: 44.8px;
+        margin-top: 60px;
+    }
+    .index-box-content {
+        width: 424px;
+        margin-right: 37.6px;
+    }
+    .index-box-title {
+        font-size: 57.6px;
+        margin-top: 40px;
+        margin-bottom: 68px;
+    }
+    .index-box-desc {
+        font-size: 24px;
+        margin-bottom: 96px;
+    }
+    .index-box-skills {
+        width: 641.6px;
+        height: 19.2px;
+        margin-left: 40px;
+    }
+    .skill-icon {
+        width: 19.2px;
+        height: 19.2px;
+    }
+    .skill p{
+        font-size: 12px;
+        margin-left: 9.6px;
+    }
+    .skill:not(:first-child) {
+        margin-left: 41.4px;
+    }
+}
