@@ -97,7 +97,7 @@
     transition: 0.3s;
 }
 
-@media only screen and (max-width: 1870px) {
+@media only screen and (max-width: 1540px) {
     .image{width: 934px;} .main {padding-top: 164px;}
     .index-box {
         width: 712px;
