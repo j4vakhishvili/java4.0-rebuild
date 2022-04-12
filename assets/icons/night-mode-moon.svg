@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.542" height="34.542" viewBox="0 0 34.542 34.542">
+  <g id="vuesax_linear_moon" data-name="vuesax/linear/moon" transform="translate(0 0)">
+    <g id="moon" transform="translate(0 0)">
+      <path id="Vector" d="M.039,15a15.121,15.121,0,0,0,27.245,7.628c1.18-1.6.547-2.663-1.425-2.3a13.664,13.664,0,0,1-2.994.2A13.42,13.42,0,0,1,10.042,7.4a12.8,12.8,0,0,1,1.079-5.253C11.9.367,10.963-.482,9.164.28A14.825,14.825,0,0,0,.039,15Z" transform="translate(2.883 2.872)" fill="none" stroke="#313131" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H34.542V34.542H0Z" transform="translate(34.542 34.542) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
