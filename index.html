@@ -6,74 +6,44 @@
     <title>J4vakhishvili - Digital Portfolio</title>
     <link rel="icon" href="assets/icons/webicon.png">
     <link rel="stylesheet" href="assets/style/default.css">
-    <link rel="stylesheet" href="assets/style/index.css">
-    <link rel="stylesheet" href="assets/style/header.css">
-    <link rel="stylesheet" href="assets/style/colors/orange.css" id="orange">
-    <link rel="stylesheet" href="assets/style/colors/yellow.css" id="yellow">
-    <link rel="stylesheet" href="assets/style/colors/green.css" id="green">
-    <link rel="stylesheet" href="assets/style/colors/cyan.css" id="cyan">
-    <link rel="stylesheet" href="assets/style/colors/blue.css" id="blue">
-    <link rel="stylesheet" href="assets/style/colors/purple.css" id="purple">
-    <link rel="stylesheet" href="assets/style/colors/red.css" id="red">
+    <link rel="stylesheet" href="assets/style/home.css">
 </head>
 <body>
-    <header>
-        <div class="container header">
-            <a class="logo" href="index.html">J4VAKHISHVILI</a>
-            <div class="menu" onclick="openNav()"><div class="menu-icon"></div></div>
-        </div>
-    </header>
     <nav>
-        <div class="container nav">
-            <div class="menu" onclick="closeNav()"><div class="close-icon"></div></div>
-            <div class="navigation">
-                <a href="#" class="link on" data-text="მთავარი">მთავარი</a>
-                <a href="#" class="link" data-text="პროექტები">პროექტები</a>
-                <a href="#" class="link" data-text="რეზიუმე">რეზიუმე</a>
-                <a href="#" class="link" data-text="კონტაქტი">კონტაქტი</a>
-                <div class="nm-colors">
-                    <ul class="colorbox">
-                        <li class="black" style="background: #000;"><div class="nm-icon"><input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"></div></li>
-                        <li class="red" style="background: #E21E2C;" onclick="red()"></li>
-                        <li class="orange" style="background: #E85F1A;" onclick="orange()"></li>
-                        <li class="yellow" style="background: #EA9E18;" onclick="yellow()"></li>
-                        <li class="green" style="background: #4DE51C;" onclick="green()"></li>
-                        <li class="cyan" style="background: #1A9AE8;" onclick="cyan()"></li>
-                        <li class="blue" style="background: #1C1CE5;" onclick="blue()"></li>
-                        <li class="purple" style="background: #9F1EE2;" onclick="purple()"></li>
-                        <li class="pink" style="background: #E21E2C;" onclick="red()"></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="container">
+            <header>
+                <img src="assets/icons/logo-black.svg" alt="j4vakhishvili logo" class="logo">
+                <button class="close" onclick="closeNav()"></button>
+            </header>
+            <section class="sideOne">
+                <ul class="categories">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button class="darkmode">                    <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"><div class="icon nightmode"></div> Dark Mode</button>
+                </ul>
+            </section>
         </div>
     </nav>
-    <div class="container main">
-        <img src="assets/media/gallery/default.svg" alt="J4vakhishvili" class="image">
-        <div class="index-box">
-            <div class="index-box-content">
-                <h2 class="index-box-title">Who am I?</h2>
-                <p class="index-box-desc">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
-                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.</p>
-            </div>
-            <div class="index-box-skills">
-                <div class="skill">
-                    <div class="skill-icon gd"></div> <p>Graphic Designer</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-icon fddev"></div> <p>FrontEnd Developer</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-icon udev"></div> <p>Unity Developer</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-icon pg"></div> <p>Photographer</p>
-                </div>
-            </div>
-        </div>
+    <div class="container">
+        <header>
+            <img src="assets/icons/logo-black.svg" alt="j4vakhishvili logo" class="logo" id="logo">
+            <button class="menu" onclick="openNav()"></button>
+        </header>
+        <main>
+            <section class="sideOne">
+                <h1>J4vakhishvili</h1>
+                <p>Hi, you just landed in my digital portfolio ツ<br>
+                My name is Nick Javakhishvili, I was studing at It Step Academy and GeoLab, I can work in different professions, such as: FrontEnd Dev, Graphic Designer, Photographer, Unity Game Developer, I am also the founder of a Georgian startup Devi, long story short, here you are able to look through my projects.</p>
+                <button class="lstart">Let's Start <div class="icon arrow"></div></button>
+            </section>
+            <section class="sideTwo">
+                <img src="assets/style/webstyles/welcome-hand.png" alt="hi" class="welcome">
+            </section>
+        </main>
     </div>
-
-    <script src="assets/script/darkmode.js"></script>
     <script src="assets/script/navigation.js"></script>
-    <script src="assets/script/colorChanger.js"></script>
+    <script src="assets/script/darkmode.js"></script>
 </body>
 </html>
