@@ -327,6 +327,9 @@ ul{
         height: 40px;
         background-size: 60%;
     }
+    [data-theme="dark"] .close {
+        background-size: 60%;
+    }
     .darkmode {
         width: 100%;
         margin-top: 50px;
