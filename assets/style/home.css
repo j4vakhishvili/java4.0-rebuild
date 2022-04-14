@@ -31,7 +31,6 @@ header{
 }
 
 [data-theme="dark"] .logo{
-    height: 64px;
     filter: invert(1);
     transition: 0.3s;
 }
@@ -320,6 +319,9 @@ ul{
     .menu {
         width: 40px;
         height: 40px;
+        background-size: 60%;
+    }
+    [data-theme="dark"] .menu {
         background-size: 60%;
     }
     .close {
