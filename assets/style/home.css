@@ -314,6 +314,9 @@ ul{
     .logo {
         height: 40px;
     }
+    [data-theme="dark"] .logo {
+        height: 40px;
+    }
     .menu {
         width: 40px;
         height: 40px;
