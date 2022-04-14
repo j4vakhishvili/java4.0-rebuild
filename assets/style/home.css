@@ -114,11 +114,11 @@ p{
     height: 11.2vh;
     border: 1px solid #707070;
     margin-top: 6.7vh;
-    background: #F5D4D6;
+    background: #e9afb2;
     font-size: 40px;
     font-family: 'Mark-Bold';
     text-transform: uppercase;
-    color: #4E4E4E;
+    color: #464545;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -138,8 +138,8 @@ p{
 }
 
 .lstart:hover{
-    background: #E6C4C6;
-    color: #3f3f3f;
+    background: #e39ea2;
+    color: #363636;
     border: 1px solid #575757;
     transition: 0.3s;
 }
@@ -252,9 +252,91 @@ ul{
 }
 
 #darkSwitch {
-    width: 257px;
-    height: 51px;
+    width: 298px;
+    height: 65px;
     opacity: 0;
     cursor: pointer;
     position: absolute;
+    margin-top: -14px;
+    margin-left: -57px;
+}
+
+@media only screen and (max-width: 360px){
+    body{
+        background-size: inherit;
+        background-position: center;
+    }
+    [data-theme="dark"] {
+        background-size: inherit;
+        background-position: center;
+    }
+    [data-theme="dark"] .lstart {
+        border: none;
+    }
+    .container{
+        width: 300px;
+    }
+    header{
+        padding-top: 25px;
+    }
+    p{
+        font-size: 1.125em;
+        width: 300px;
+        position: absolute;
+        bottom: 90px;
+    }
+    .lstart{
+        font-size: 1.68em;
+        width: 100%;
+        height: 72px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .icon{
+        width: 28px;
+        height: 28px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .welcome {
+        height: auto;
+        margin: auto;
+        width: 210px;
+    }
+    .sideOne{
+        height: auto;
+    }
+    .sideTwo{
+        display: flex;
+    }
+    .logo {
+        height: 40px;
+    }
+    .menu {
+        width: 40px;
+        height: 40px;
+        background-size: 60%;
+    }
+    .close {
+        width: 40px;
+        height: 40px;
+        background-size: 60%;
+    }
+    .darkmode {
+        width: 100%;
+        margin-top: 50px;
+    }
+    li a {
+        font-size: 3.2em;
+    }
+    li{
+        margin-bottom: 15px;
+    }
+    .categories{
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+    }
 }
