@@ -21,7 +21,7 @@
     transition: 0.3s;
 }
 
-.logo:hover{
+h1:hover, button.seeall:hover{
     background: #9F1EE2;
     transition: 0.3s;
 }

@@ -21,7 +21,7 @@
     transition: 0.3s;
 }
 
-.logo:hover{
+h1:hover, button.seeall:hover{
     background: #4DE51C;
     transition: 0.3s;
 }
@@ -29,6 +29,15 @@
 ::selection {
     background: #4DE51C;
     color: white;
+}
+
+.skill-icon{
+    filter: brightness(0.8);
+}
+
+[data-theme="dark"] .skill-icon {
+    filter: brightness(1);
+    transition: 0.3s;
 }
 
 .gd{

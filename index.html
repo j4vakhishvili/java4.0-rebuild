@@ -1,79 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J4vakhishvili - Digital Portfolio</title>
-    <link rel="icon" href="assets/icons/webicon.png">
-    <link rel="stylesheet" href="assets/style/default.css">
-    <link rel="stylesheet" href="assets/style/index.css">
-    <link rel="stylesheet" href="assets/style/header.css">
-    <link rel="stylesheet" href="assets/style/colors/orange.css" id="orange">
-    <link rel="stylesheet" href="assets/style/colors/yellow.css" id="yellow">
-    <link rel="stylesheet" href="assets/style/colors/green.css" id="green">
-    <link rel="stylesheet" href="assets/style/colors/cyan.css" id="cyan">
-    <link rel="stylesheet" href="assets/style/colors/blue.css" id="blue">
-    <link rel="stylesheet" href="assets/style/colors/purple.css" id="purple">
-    <link rel="stylesheet" href="assets/style/colors/red.css" id="red">
-</head>
-<body>
-    <header>
-        <div class="container header">
-            <a class="logo" href="index.html">J4VAKHISHVILI</a>
-            <div class="menu" onclick="openNav()"><div class="menu-icon"></div></div>
-        </div>
-    </header>
-    <nav>
-        <div class="container nav">
-            <div class="menu" onclick="closeNav()"><div class="close-icon"></div></div>
-            <div class="navigation">
-                <a href="#" class="link on" data-text="მთავარი">მთავარი</a>
-                <a href="#" class="link" data-text="პროექტები">პროექტები</a>
-                <a href="#" class="link" data-text="რეზიუმე">რეზიუმე</a>
-                <a href="#" class="link" data-text="კონტაქტი">კონტაქტი</a>
-                <div class="nm-colors">
-                    <ul class="colorbox">
-                        <li class="black" style="background: #000;"><div class="nm-icon"><input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"></div></li>
-                        <li class="red" style="background: #E21E2C;" onclick="red()"></li>
-                        <li class="orange" style="background: #E85F1A;" onclick="orange()"></li>
-                        <li class="yellow" style="background: #EA9E18;" onclick="yellow()"></li>
-                        <li class="green" style="background: #4DE51C;" onclick="green()"></li>
-                        <li class="cyan" style="background: #1A9AE8;" onclick="cyan()"></li>
-                        <li class="blue" style="background: #1C1CE5;" onclick="blue()"></li>
-                        <li class="purple" style="background: #9F1EE2;" onclick="purple()"></li>
-                        <li class="pink" style="background: #E21E2C;" onclick="red()"></li>
-                    </ul>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>J4vakhishvili - Digital Portfolio</title>
+        <meta name="description" content="J4vakhishvilis' Digital Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/icons/webicon.png">
+        <link rel="stylesheet" href="assets/style/default.css">
+        <link rel="stylesheet" href="assets/style/header.css">
+        <link rel="stylesheet" href="assets/style/main.css">
+        <link rel="stylesheet" href="assets/style/footer.css">
+        <link rel="stylesheet" href="assets/style/index.css">
+        <link rel="stylesheet" href="assets/style/colors/orange.css" id="orange">
+        <link rel="stylesheet" href="assets/style/colors/yellow.css" id="yellow">
+        <link rel="stylesheet" href="assets/style/colors/green.css" id="green">
+        <link rel="stylesheet" href="assets/style/colors/cyan.css" id="cyan">
+        <link rel="stylesheet" href="assets/style/colors/blue.css" id="blue">
+        <link rel="stylesheet" href="assets/style/colors/purple.css" id="purple">
+        <link rel="stylesheet" href="assets/style/colors/red.css" id="red">
+    </head>
+    <body>
+        <header>
+            <h1>J4vakhishvili</h1>
+            <button class="menu" onclick="openNav()"><div class="menuIcon"></div></button>
+        </header>
+        <nav>
+            <div class="container nav">
+                <div class="closeMe"><div class="menu" onclick="closeNav()"><div class="close-icon"></div></div></div>
+                <div class="navigation">
+                    <a href="#" class="link on" data-text="მთავარი">მთავარი</a>
+                    <a href="#" class="link" data-text="პროექტები">პროექტები</a>
+                    <a href="#" class="link" data-text="რეზიუმე">რეზიუმე</a>
+                    <a href="#" class="link" data-text="კონტაქტი">კონტაქტი</a>
+                    <div class="nm-colors">
+                        <ul class="colorbox">
+                            <li class="black" style="background: #000;"><div class="nm-icon"><input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"></div></li>
+                            <li class="red" style="background: #E21E2C;" onclick="red()"></li>
+                            <li class="orange" style="background: #E85F1A;" onclick="orange()"></li>
+                            <li class="yellow" style="background: #EA9E18;" onclick="yellow()"></li>
+                            <li class="green" style="background: #4DE51C;" onclick="green()"></li>
+                            <li class="cyan" style="background: #1A9AE8;" onclick="cyan()"></li>
+                            <li class="blue" style="background: #1C1CE5;" onclick="blue()"></li>
+                            <li class="purple" style="background: #9F1EE2;" onclick="purple()"></li>
+                            <li class="pink" style="background: #E21E2C;" onclick="red()"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div class="container main">
-        <img src="assets/media/gallery/default.svg" alt="J4vakhishvili" class="image">
-        <div class="index-box">
-            <div class="index-box-content">
-                <h2 class="index-box-title">Who am I?</h2>
-                <p class="index-box-desc">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
-                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.</p>
-            </div>
-            <div class="index-box-skills">
-                <div class="skill">
-                    <div class="skill-icon gd"></div> <p>Graphic Designer</p>
+        </nav>
+        <main>
+            <section class="introduction">
+                <img src="assets/media/gallery/default.svg" alt="J4vakhishvili" class="introImg">
+                <div class="whoamI">
+                    <section class="info">
+                        <h2 class="title">Who am I?</h2>
+                        <p class="desc">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
+მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.</p>
+                    </section>
+                    <section class="skills">
+                        <div class="skill">
+                            <div class="skill-icon gd"></div> <p>Graphic Designer</p>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-icon fddev"></div> <p>FrontEnd Developer</p>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-icon udev"></div> <p>Unity Developer</p>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-icon pg"></div> <p>Photographer</p>
+                        </div>
+                    </div>
+                    </section>
                 </div>
-                <div class="skill">
-                    <div class="skill-icon fddev"></div> <p>FrontEnd Developer</p>
+            </section>
+            <section class="myProjects">
+                <h3 class="title">დაინტერესდი? შეავლე თვალი ჩემს პროექტებს</h3>
+                <div class="projects">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
+                    <img src="assets/media/gallery/default.svg" alt="projName" class="project">
                 </div>
-                <div class="skill">
-                    <div class="skill-icon udev"></div> <p>Unity Developer</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-icon pg"></div> <p>Photographer</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="assets/script/darkmode.js"></script>
-    <script src="assets/script/navigation.js"></script>
-    <script src="assets/script/colorChanger.js"></script>
-</body>
+                <div class="seeall"><button class="seeall">სრულად ნახვა</button></div>
+            </section>
+        </main>
+        <footer>
+            <section class="separateFooter">
+                <section class="sepSep">Developed by J4vakhishvili</section>
+                <section class="sepSep"><i id="date" style="font-style: normal;"></i> © ყველა უფლება დაცულია</section>
+            </section>
+            <section class="socials">
+                <a href="#" class="social yt">YouTube</a>
+                <a href="#" class="social be">Behance</a>
+                <a href="#" class="social dr">Dribbble</a>
+                <a href="#" class="social ig">Instagram</a>
+                <a href="#" class="social fb">Facebook</a>
+            </section>
+        </footer>
+        <script src="assets/script/darkmode.js"></script>
+        <script src="assets/script/date.js"></script>
+        <script src="assets/script/navigation.js"></script>
+        <script src="assets/script/colorChanger.js"></script>
+    </body>
 </html>

@@ -2,52 +2,72 @@ body{
   margin: 0;
   padding: 0;
   background: url(../media/sidestyles/bglight.jpg);
-  background-size: inherit;
 }
 
 @font-face {
-    font-family: 'BOG-B';
+    font-family: 'MarkGeo-B';
     src: url(../fonts/BOG-Bold.ttf);
+    font-display: fallback;
 }
 
 @font-face {
-    font-family: 'BOG-M';
+    font-family: 'MarkGeo-M';
     src: url(../fonts/BOG-Medium.ttf);
+    font-display: fallback;
 }
 
 @font-face {
-    font-family: 'BOG-R';
+  font-family: 'MarkGeoCaps-M';
+  src: url(../fonts/Bog-Caps.ttf);
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'MarkGeoCaps-B';
+  src: url(../fonts/BogCaps-Bold.ttf);
+  font-display: fallback;
+}
+
+@font-face {
+    font-family: 'MarkGeo-R';
     src: url(../fonts/BOG-Regular.ttf);
+    font-display: fallback;
 }
 
 @font-face {
-    font-family: 'BOG-SB';
+    font-family: 'MarkGeo-SB';
     src: url(../fonts/BOG-SemiBold.ttf);
+    font-display: fallback;
 }
 
 @font-face {
     font-family: 'Main';
     src: url(../fonts/mainfont.ttf);
+    font-display: fallback;
 }
 
 @font-face {
     font-family: 'Main-lite';
     src: url(../fonts/olney_light.otf);
+    font-display: fallback;
 }
 
 @font-face {
   font-family: 'crystal-b';
   src: url(../fonts/CrystalB.ttf);
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'crystal-m';
   src: url(../fonts/CrystalM.ttf);
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'mcgeo';
   src: url(../fonts/mcgeo.ttf);
+  font-display: fallback;
 }
 
 ::-webkit-scrollbar {
@@ -261,12 +281,6 @@ template {
 
 [hidden] {
   display: none;
-}
-
-.container{
-  width: 94%;
-  margin: auto;
-  display: flex;
 }
 
 /* @media only screen and (max-width: 1800px) {
