@@ -1,5 +1,5 @@
 .introImg{
-    width: 65%;
+    width: 115vh;
     height: auto;
     z-index: 1;
 }
@@ -37,8 +37,8 @@ p.desc{
 }
 
 .skills{
-    margin-left: -11vh;
-    margin-top: 6vh;
+    margin-left: -9vh;
+    margin-top: 9vh;
 }
 
 .skill {
