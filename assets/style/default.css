@@ -1,7 +1,6 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(../media/sidestyles/bglight.jpg);
 }
 
 @font-face {
@@ -86,16 +85,10 @@ body{
     background: #333333; 
   }
   
-  /* ::selection {
-      background: #4a1ffe;
+  ::selection {
+      background: #FB2477;
       color: white;
-  } */
-
-[data-theme="dark"] {
-  background: url(../media/sidestyles/bgdark.jpg);
-  transition: 0.3s;
-}
-
+  }
 
 html {
   line-height: 1.15; /* 1 */

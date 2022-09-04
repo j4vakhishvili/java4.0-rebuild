@@ -9,9 +9,7 @@ h1{
     background: black;
     color: white;
     margin: 0 auto;
-    line-height: 9vh;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 header{
@@ -82,21 +80,21 @@ nav{
 }
 
 .link{
-    font-size: 12vh;
+    font-size: 105px;
     font-family: 'main', sans-serif;
     display: block;
     text-decoration: none;
     color: transparent;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     position: relative;
-    margin-bottom: 2vh;
+    margin-bottom: 25px;
 }
 
 .navigation{
     width: 40%;
     position: absolute;
-    margin-top: 14vh;
-    margin-left: 11vh;
+    margin-top: 115px;
+    margin-left: 220px;
 }
 
 .on {
@@ -137,11 +135,10 @@ nav{
 }
 
 .nm-colors{
-    width: 72vh;
-    height: 8vh;
+    width: 435px;
+    height: 50px;
     background: rgb(235, 235, 235);
-    margin-top: 4vh;
-    cursor: pointer;
+    margin-top: 100px;
 }
 
 .colorbox{
@@ -155,8 +152,8 @@ nav{
 }
 
 .nm-colors li{
-    width: 8vh;
-    height: 8vh;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
