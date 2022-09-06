@@ -267,3 +267,27 @@ a.start:hover{
         font-size: 4.2vh;
     }
 }
+
+@media only screen and (max-width: 660px){
+    p.text {
+        font-size: 4.95vh;
+        padding: 0 1.5vh;
+    }
+    .decoration {
+        width: 30.4vh;
+        height: 18.4vh;
+    }
+    .bottom{
+        box-shadow: inset 0px -16vh white;
+    }
+    a.start {
+        font-size: 3.2vh;
+    }
+    h1 {
+        font-size: 3.9vh;
+        margin-top: 3.5%;
+    }
+    header img {
+        height: 4.5vh;
+    }
+}
