@@ -1,0 +1,15 @@
+body{
+    transition: 0.3s;
+}
+
+[data-theme="dark"]{
+    background: #111;
+    transition: 0.3s;
+}
+
+main{
+    width: 84%;
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+}

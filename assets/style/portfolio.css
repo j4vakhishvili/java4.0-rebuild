@@ -1,0 +1,25 @@
+.cover{
+    width: 547px;
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cover:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+.separate-content{
+    width: fit-content;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+[data-theme="dark-mode"] .cover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
