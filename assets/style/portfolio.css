@@ -1,6 +1,6 @@
 .cover{
-    width: 547px;
-    height: 320px;
+    width: 530px;
+    height: 300px;
     object-fit: cover;
     cursor: pointer;
     transition: 0.3s;

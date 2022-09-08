@@ -89,3 +89,7 @@ li.on{
 .separate-main{
     position: fixed;
 }
+
+.fillthegap{
+    width: 680px;
+}
