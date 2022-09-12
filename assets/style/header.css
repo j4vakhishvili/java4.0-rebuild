@@ -88,8 +88,39 @@ li.on{
 
 .separate-main{
     position: fixed;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 .fillthegap{
     width: 680px;
+}
+
+.headBtns{
+    display: flex;
+}
+
+.head-btn, #darkSwitch{
+    background: white;
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.head-btn:not(:first-child){
+    margin-left: 12px;
+}
+
+#darkSwitch{
+    opacity: 0;
+}
+
+[data-theme="dark"] .head-btn{
+    background: #111;
+    transition: 0.3s;
+}
+
+.menu{
+    display: none;
 }
