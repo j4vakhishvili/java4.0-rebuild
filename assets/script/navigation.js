@@ -1,8 +1,8 @@
-const navbar = document.querySelector('nav');
+const navbar = document.getElementById('menu');
 
 function openNav(){
-    navbar.style.transform = "scale(1)";
-    navbar.style.top = "0";
+    navbar.style.transform = "translateX(0)";
+    navbar.style.opacity = "1";
 }
 
 function closeNav(){

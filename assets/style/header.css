@@ -88,12 +88,10 @@ li.on{
 
 .separate-main{
     position: fixed;
-    overflow-y: scroll;
-    height: 100%;
 }
 
 .fillthegap{
-    width: 680px;
+    width: 676px;
 }
 
 .headBtns{
@@ -102,8 +100,8 @@ li.on{
 
 .head-btn, #darkSwitch{
     background: white;
-    width: 62px;
-    height: 62px;
+    width: 6.2vh;
+    height: 6.2vh;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -122,5 +120,67 @@ li.on{
 }
 
 .menu{
+    background: url(../icons/menu-icon.svg), white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.dark-mode{
+    background: url(../icons/dark.svg), white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+[data-theme="dark"] .dark-mode{
+    background: url(../icons/dark.svg), #eee;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    filter: invert(1);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .menu{
+    background: url(../icons/menu-icon.svg), #eee;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    filter: invert(1);
+    transition: 0.3s;
+}
+
+.menu{
     display: none;
+}
+
+
+@media only screen and (max-width: 1770px){
+    nav{
+        padding: 32px 38px;
+    }
+    .fillthegap {
+        width: 598px;
+    }
+    a.social{
+        padding: 24px 150px;
+    }
+}
+
+@media only screen and (max-width: 1630px){
+    .menu{
+        display: block;
+    }
+    .separate-main{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    .fillthegap {
+        display: none;
+    }
+    .cover{
+        width: 49.3% !important;
+        height: 368px !important;
+    }
 }
