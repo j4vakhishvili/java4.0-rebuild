@@ -100,8 +100,8 @@ li.on{
 
 .head-btn, #darkSwitch{
     background: white;
-    width: 6.2vh;
-    height: 6.2vh;
+    width: 7.2vh;
+    height: 7.2vh;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -180,7 +180,7 @@ li.on{
         display: none;
     }
     .cover{
-        width: 49.3% !important;
-        height: 368px !important;
+        width: 49.2% !important;
+        height: 46vh !important;
     }
 }
