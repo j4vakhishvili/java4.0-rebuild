@@ -195,13 +195,15 @@ img.logo{
     display: none;
     width: 4.7vh;
     height: 4.7vh;
-    background: white;
+    background: black;
     padding: 1vh;
+    filter: invert(1);
 }
 
 [data-theme="dark"] img.logo{
     background: #111;
     transition: 0.3s;
+    filter: invert(0);
 }
 
 @media only screen and (max-width: 1770px){
