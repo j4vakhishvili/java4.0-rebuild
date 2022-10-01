@@ -20,6 +20,14 @@ var imgCount = 4;
             images[4] = "wineweb.jpg",
             header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
 
+let snowflakes = document.getElementById("winterCSS");
+let snowflakesHTML = document.getElementById("snowflakes");
+
+snowflakes.disabled = true;
+snowflakesHTML.style.display = "none";
+
 if(calendar == "11" || calendar == "0"){
     header.style.background = "url(https://cdn4.vectorstock.com/i/1000x1000/62/58/winter-night-vector-4226258.jpg)";
+    snowflakes.disabled = false;
+    snowflakesHTML.style.display = "block";
 }
