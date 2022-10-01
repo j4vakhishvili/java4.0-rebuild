@@ -1,6 +1,6 @@
 .cover{
     width: 48%;
-    height: 32vh;
+    height: 30vh;
     object-fit: cover;
     cursor: pointer;
     transition: 0.3s;
@@ -61,5 +61,8 @@
     .cover{
         width: 100%;
         height: 22vh;
+    }
+    main{
+        padding-top: 100px;
     }
 }

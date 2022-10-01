@@ -55,8 +55,8 @@
                     <a href="" class="social">Facebook</a>
                 </section>
                 <section class="about">
-                    <a class="about">ჩემს შესახებ</a>
-                    <a class="about">რეზიუმე</a>
+                    <a class="about" onclick="openAbout()">ჩემს შესახებ</a>
+                    <a class="about" onclick="openResume()">რეზიუმე</a>
                 </section>
                 <section class="rights">
                     <a class="rights">© <i id="date" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
@@ -81,15 +81,15 @@
                 <a href="" class="social">Facebook</a>
             </section>
             <section class="about">
-                <a class="about">ჩემს შესახებ</a>
-                <a class="about">რეზიუმე</a>
+                <a class="about" onclick="openAbout()">ჩემს შესახებ</a>
+                <a class="about" onclick="openResume()">რეზიუმე</a>
             </section>
             <section class="rights">
                 <a class="rights">© <i id="dateFooter" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
             </section>
         </footer>
     </div>
-    <section class="menu-resp-1620"  id="menu">
+    <section class="backgroundModal"  id="menu">
         <div class="container menu-cont">
             <ul>
                 <li class="on">ყველაფერი</li>
@@ -100,11 +100,29 @@
                 <li>ფოტოგრაფია</li>
                 <li>სხვა</li>
             </ul>
-            <div class="closeMenu" onclick="closeNav()"></div>
+            <div class="closeModal" onclick="closeNav()"></div>
+        </div>
+    </section>
+    <section class="backgroundModal"  id="aboutMe">
+        <div class="makeMeCentered">
+            <div class="modal">
+                <p class="aboutMe">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
+                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.</p>
+            </div>
+            <button class="close" id="close" onclick="closeAbout()">დახურვა</button>
+        </div>
+    </section>
+    <section class="backgroundModal"  id="resume">
+        <div class="makeMeCentered">
+            <div class="modal modalTwo">
+                <img src="assets/media/gallery/default.svg" alt="resume" width="100%">
+            </div>
+            <button class="close closeTwo" id="close" onclick="closeResume()">დახურვა</button>
         </div>
     </section>
     <script src="assets/script/darkmode.js" async defer></script>
     <script src="assets/script/date.js" async defer></script>
     <script src="assets/script/navigation.js"></script>
+    <script src="assets/script/modal.js"></script>
 </body>
 </html>
