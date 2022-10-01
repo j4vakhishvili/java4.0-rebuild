@@ -1,8 +1,8 @@
 header{
     width: 100%;
     height: 100px;
-    background: url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png);
-    background-position: center;
+    background: url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png);;
+    ;;;background-position: center !important;;;;
     position: fixed;
     z-index: 1;
 }

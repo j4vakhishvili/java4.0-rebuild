@@ -9,5 +9,3 @@ let widthTwo = modalTwo.offsetWidth;
 
 let closeTwo = document.querySelector('.closeTwo');
 closeTwo.style.width = widthTwo + "px";
-
-console.log({width});
