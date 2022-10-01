@@ -11,6 +11,7 @@ a.social{
     margin-top: 16px;
     text-decoration: none;
     font-size: 24px;
+    text-align: center;
 }
 
 a.social:hover{
@@ -52,6 +53,12 @@ a.rights{
     color: #c5c5c5;
 }
 
+.responsive-1620{
+    display: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 [data-theme="dark"] a.social{
     color: #616161;
     border: 1px solid #464646;
@@ -78,4 +85,20 @@ a.rights{
 [data-theme="dark"] a.about{
     color: #616161;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1630px){
+    .responsive-1620{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    a.social{
+        font-size: 18px;
+        padding: 22px 0;
+    }
+    a.about{
+        font-size: 16px;
+    }
 }

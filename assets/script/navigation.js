@@ -6,6 +6,6 @@ function openNav(){
 }
 
 function closeNav(){
-    navbar.style.transform = "scale(0)";
-    navbar.style.top = "-100%";
+    navbar.style.transform = "translateX(-100%)";
+    navbar.style.opacity = "0.6";
 }

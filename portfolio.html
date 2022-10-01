@@ -26,16 +26,17 @@
     <header>
         <div class="container">
             <h1>J4vakhishvili</h1>
+            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" class="logo">
             <div class="headBtns">
                 <div class="dark-mode head-btn" bis_skin_checked="1">
                     <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
                 </div>
-                <div class="menu head-btn" openNav()></div>
+                <div class="menu head-btn" onclick="openNav()"></div>
             </div>
         </div>
     </header>
     <main>
-        <section class="separate-main" id="menu">
+        <section class="separate-main">
             <nav>
                 <ul>
                     <li class="on">ყველაფერი</li>
@@ -72,6 +73,36 @@
             <img src="assets/media/gallery/covers/26may.jpg" alt="wineties" class="cover">
         </section>
     </main>
+    <div class="container">
+        <footer class="responsive-1620">
+            <section class="social">
+                <a href="" class="social">YouTube</a>
+                <a href="" class="social">Dribbble</a>
+                <a href="" class="social">Facebook</a>
+            </section>
+            <section class="about">
+                <a class="about">ჩემს შესახებ</a>
+                <a class="about">რეზიუმე</a>
+            </section>
+            <section class="rights">
+                <a class="rights">© <i id="dateFooter" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
+            </section>
+        </footer>
+    </div>
+    <section class="menu-resp-1620"  id="menu">
+        <div class="container menu-cont">
+            <ul>
+                <li class="on">ყველაფერი</li>
+                <li>ლოგო და ბრენდირება</li>
+                <li>ვებ დიზაინი</li>
+                <li>ილუსტრაციები</li>
+                <li>ფოტოშოპი</li>
+                <li>ფოტოგრაფია</li>
+                <li>სხვა</li>
+            </ul>
+            <div class="closeMenu" onclick="closeNav()"></div>
+        </div>
+    </section>
     <script src="assets/script/darkmode.js" async defer></script>
     <script src="assets/script/date.js" async defer></script>
     <script src="assets/script/navigation.js"></script>
