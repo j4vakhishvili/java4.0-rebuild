@@ -91,6 +91,28 @@ a.rights{
     .responsive-1620{
         display: block;
     }
+    section.social{
+        flex-direction: row;
+        gap: 24px;
+    }
+    a.social{
+        width: 38%;
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .responsive-1620{
+        display: block;
+    }
+    section.social{
+        flex-direction: column;
+        gap: 0;
+    }
+    a.social{
+        width: auto;
+        padding: 25px 36%;
+    }
 }
 
 @media only screen and (max-width: 500px){
