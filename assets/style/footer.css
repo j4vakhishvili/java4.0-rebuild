@@ -12,6 +12,7 @@ a.social{
     text-decoration: none;
     font-size: 24px;
     text-align: center;
+    cursor: pointer;
 }
 
 a.social:hover{
