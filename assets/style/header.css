@@ -243,6 +243,42 @@ button.close{
     border-top: none;
 }
 
+section.resume{
+    width: 58vh;
+    height: 37vh;
+    background: url(../media/gallery/covers/khinkali.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.onHoverCover{
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.568);
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadIcon{
+    width: 6vh;
+    height: 6vh;
+    background: url(../icons/download.svg), #fb2477;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4vh;
+    border: 1px solid white;
+}
+
+section.resume > .onHoverCover:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 [data-theme="dark"] .modal{
     background: #111;
     border: 1px solid #373737;
@@ -313,6 +349,9 @@ button.close:hover{
     .modal{
         padding: 38px;
     }
+    .onHoverCover{
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 620px){
@@ -324,5 +363,12 @@ button.close:hover{
     }
     header{
         height: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    section.resume {
+        width: 38vh;
+        height: 24vh;
     }
 }
