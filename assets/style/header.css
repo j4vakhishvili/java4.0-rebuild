@@ -245,8 +245,8 @@ button.close{
 
 section.resume{
     width: 58vh;
-    height: 37vh;
-    background: url(../media/gallery/covers/khinkali.jpg);
+    height: 38vh;
+    background: url(../media/gallery/resume.png);
     background-position: center;
     background-size: cover;
 }
