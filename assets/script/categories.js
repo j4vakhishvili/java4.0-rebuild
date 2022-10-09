@@ -4,6 +4,12 @@ const webdev = document.getElementById('webdev');
 const illustration = document.getElementById('illustration');
 const photoshop = document.getElementById('photoshop');
 const others = document.getElementById('others');
+const all2 = document.getElementById('all2');
+const brand2 = document.getElementById('brand2');
+const webdev2 = document.getElementById('webdev2');
+const illustration2 = document.getElementById('illustration2');
+const photoshop2 = document.getElementById('photoshop2');
+const others2 = document.getElementById('others2');
 
 const itemsNamedBrand = document.querySelectorAll(".brand");
 const itemsNamedWebdev = document.querySelectorAll(".webdev");
@@ -18,6 +24,13 @@ function allClick(){
     illustration.classList.remove('on');
     photoshop.classList.remove('on');
     others.classList.remove('on');
+    
+    all2.classList.add('on');
+    brand2.classList.remove('on');
+    webdev2.classList.remove('on');
+    illustration2.classList.remove('on');
+    photoshop2.classList.remove('on');
+    others2.classList.remove('on');
 
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "block";
@@ -44,6 +57,13 @@ function brandClick(){
     photoshop.classList.remove('on');
     others.classList.remove('on');
 
+    all2.classList.remove('on');
+    brand2.classList.add('on');
+    webdev2.classList.remove('on');
+    illustration2.classList.remove('on');
+    photoshop2.classList.remove('on');
+    others2.classList.remove('on');
+
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "block";
     }
@@ -68,6 +88,13 @@ function webdevClick(){
     illustration.classList.remove('on');
     photoshop.classList.remove('on');
     others.classList.remove('on');
+    
+    all2.classList.remove('on');
+    brand2.classList.remove('on');
+    webdev2.classList.add('on');
+    illustration2.classList.remove('on');
+    photoshop2.classList.remove('on');
+    others2.classList.remove('on');
 
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "none";
@@ -94,6 +121,13 @@ function illustrationClick(){
     photoshop.classList.remove('on');
     others.classList.remove('on');
 
+    all2.classList.remove('on');
+    brand2.classList.remove('on');
+    webdev2.classList.remove('on');
+    illustration2.classList.add('on');
+    photoshop2.classList.remove('on');
+    others2.classList.remove('on');
+
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "none";
     }
@@ -119,6 +153,13 @@ function photoshopClick(){
     photoshop.classList.add('on');
     others.classList.remove('on');
 
+    all2.classList.remove('on');
+    brand2.classList.remove('on');
+    webdev2.classList.remove('on');
+    illustration2.classList.remove('on');
+    photoshop2.classList.add('on');
+    others2.classList.remove('on');
+
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "none";
     }
@@ -143,6 +184,13 @@ function othersClick(){
     illustration.classList.remove('on');
     photoshop.classList.remove('on');
     others.classList.add('on');
+
+    all2.classList.remove('on');
+    brand2.classList.remove('on');
+    webdev2.classList.remove('on');
+    illustration2.classList.remove('on');
+    photoshop2.classList.remove('on');
+    others2.classList.add('on');
 
     for (let i = 0; i < itemsNamedBrand.length; i++) {
         itemsNamedBrand[i].style.display = "none";
