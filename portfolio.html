@@ -93,13 +93,13 @@
     <section class="backgroundModal"  id="menu">
         <div class="container menu-cont">
             <ul>
-                <li class="on" id="all" onclick="allClick()">ყველაფერი</li>
-                <li id="brand" onclick="brandClick()">ლოგო და ბრენდირება</li>
-                <li id="webdev" onclick="webdevClick()">ვებ დიზაინი</li>
-                <li id="illustration" onclick="illustrationClick()">ილუსტრაციები</li>
-                <li id="photoshop" onclick="photoshopClick()">ფოტოშოპი</li>
+                <li class="on" id="all" onclick="allClick(); closeNav()">ყველაფერი</li>
+                <li id="brand" onclick="brandClick(); closeNav()">ლოგო და ბრენდირება</li>
+                <li id="webdev" onclick="webdevClick(); closeNav()">ვებ დიზაინი</li>
+                <li id="illustration" onclick="illustrationClick(); closeNav()">ილუსტრაციები</li>
+                <li id="photoshop" onclick="photoshopClick(); closeNav()">ფოტოშოპი</li>
                 <li id="photograph">ფოტოგრაფია</li>
-                <li id="others" onclick="othersClick()">სხვა</li>
+                <li id="others" onclick="othersClick(); closeNav()">სხვა</li>
             </ul>
             <div class="closeModal" onclick="closeNav()"></div>
         </div>
