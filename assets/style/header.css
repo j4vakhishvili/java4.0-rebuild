@@ -279,6 +279,22 @@ section.resume > .onHoverCover:hover{
     cursor: pointer;
 }
 
+.link{
+    color: #707070;
+    font-style: italic;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .link{
+    color: #363636;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: #ac0041;
+    transition: 0.3s;
+}
+
 [data-theme="dark"] .modal{
     background: #111;
     border: 1px solid #373737;

@@ -43,7 +43,6 @@ a.about:hover{
 
 section.rights{
     display: flex;
-    justify-content: center;
     margin-top: 12px;
     border-top: 1px solid #cbcbcb;
     justify-content: center;
@@ -53,6 +52,7 @@ a.rights{
     font-family: 'MarkGeo-M', sans-serif;
     margin-top: 12px;
     color: #c5c5c5;
+    text-align: center;
 }
 
 .responsive-1620{

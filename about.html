@@ -21,34 +21,23 @@
         <link rel="stylesheet" href="assets/style/header.css">
         <link rel="stylesheet" href="assets/style/footer.css">
         <link rel="stylesheet" href="assets/style/portfolio.css">
+        <link rel="stylesheet" href="assets/style/about.css">
         <link rel="stylesheet" href="assets/style/snowflakes.css" id="winterCSS">
     </head>
 <body>
     <header>
         <div class="container">
-            <h1>J4vakhishvili</h1>
-            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" class="logo">
+            <h1 onclick="window.location.href='portfolio'" style="cursor: pointer;">J4vakhishvili</h1>
+            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" onclick="window.location.href='portfolio'" class="logo">
             <div class="headBtns">
                 <div class="dark-mode head-btn" bis_skin_checked="1">
                     <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
                 </div>
-                <div class="menu head-btn" onclick="openNav()"></div>
             </div>
         </div>
     </header>
     <main>
         <section class="separate-main">
-            <nav>
-                <ul>
-                    <li class="on" id="all" onclick="allClick()">ყველაფერი</li>
-                    <li id="brand" onclick="brandClick()">ლოგო და ბრენდირება</li>
-                    <li id="webdev" onclick="webdevClick()">ვებ დიზაინი</li>
-                    <li id="illustration" onclick="illustrationClick()">ილუსტრაციები</li>
-                    <li id="photoshop" onclick="photoshopClick()">ფოტოშოპი</li>
-                    <li id="photograph">ფოტოგრაფია</li>
-                    <li id="others" onclick="othersClick()">სხვა</li>
-                </ul>
-            </nav>
             <footer>
                 <section class="social">
                     <a onclick="urlOne()" class="social" id="socialNameOne">YouTube</a>
@@ -66,12 +55,60 @@
         </section>
         <section class="fillthegap"></section>
         <section class="separate-content">
-            <img src="assets/media/gallery/covers/wineweb.jpg" class="cover webdev" alt="wineties">
-            <img src="assets/media/gallery/covers/astrex.jpg" class="cover brand" alt="astrex">
-            <img src="assets/media/gallery/covers/cloth-shop.jpg" class="cover webdev" alt="cloth-shop">
-            <img src="assets/media/gallery/covers/tsifruliproject.jpg" class="cover webdev" alt="tsifruli ციფრული">
-            <img src="assets/media/gallery/covers/a4strochess.jpg" class="cover photoshop" alt="ასტროჭადრაკი astrochess">
-            <img src="assets/media/gallery/covers/26may.jpg" class="cover illustration" alt="26may 26მაისი საქართველოს დამოუკიდებლობის დღე">
+            <h2>ჩემს შესახებ</h2>
+            <p class="aboutMe abme">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
+                მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.
+            </p>
+            <h3>განათლება</h3>
+            <table>
+                <tbody><tr>
+                  <th>თარიღი</th>
+                  <th>სასწავლებელი</th>
+                  <th>კურსი</th>
+                </tr>
+                <tr>
+                  <td>2017-2017</td>
+                  <td><a href="https://gita.gov.ge" target="_blank">Georgia's Innovation and Technology Agency(GITA)</a></td>
+                  <td>Basics of Frontend Development</td>
+                </tr>
+                <tr>
+                    <td>2020-2021</td>
+                    <td><a href="https://ge.itstep.org" target="_blank">IT Academy Step</a></td>
+                    <td><a href="https://drive.google.com/file/d/1nuyeLsCxjfgv6yYmyJlxngzuEG0jkthj/view?usp=sharing" target="_blank">Junior Graphic Designer</a></td>
+                </tr>
+                <tr>
+                    <td>2021-2021</td>
+                    <td><a href="https://geolab.edu.ge" target="_blank">GeoLab</a></td>
+                    <td><a href="https://drive.google.com/file/d/13aSz9o0ukmd_q51HrsdfltClaH83B6EZ/view?usp=sharing">Unity Game Development</a></td>
+                </tr>
+                <tr>
+                    <td>2022-2026</td>
+                    <td><a href="https://btu.edu.ge" target="_blank">Business and Technology University(BTU)</a></td>
+                    <td>BA in Digital Marketing</td>
+                </tr>
+            </tbody></table>
+            <h3>სამუშაო გამოცდილება</h3>
+            <table>
+                <tbody><tr>
+                  <th>თარიღი</th>
+                  <th>დაწესებულება</th>
+                  <th>პოზიცია</th>
+                </tr>
+                <tr>
+                    <td>2021-2022</td>
+                    <td><a href="https://twbc.ge" target="_blank">Tbilisi - World Book Capital</a></td>
+                    <td>Game Developer</td>
+                </tr>
+                <tr>
+                    <td>2022-2022</td>
+                    <td><a href="https://geolab.edu.ge" target="_blank">GeoLab</a></td>
+                    <td>Lecturer of Frontend Development</td>
+                </tr>
+            </tbody></table>
+            <section class="vids">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fitstep.ge%2Fvideos%2F574114710528902%2F&show_text=false&width=560&t=0" class="fbvid" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" async defer></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTbilisiWBC2021%2Fvideos%2F1001129507148089%2F&show_text=false&width=560&t=142" class="fbvid" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" async defer></iframe>
+            </section>
         </section>
     </main>
     <div class="container">
@@ -90,20 +127,6 @@
             </section>
         </footer>
     </div>
-    <section class="backgroundModal"  id="menu">
-        <div class="container menu-cont">
-            <ul>
-                <li class="on" id="all2" onclick="allClick(); closeNav()">ყველაფერი</li>
-                <li id="brand2" onclick="brandClick(); closeNav()">ლოგო და ბრენდირება</li>
-                <li id="webdev2" onclick="webdevClick(); closeNav()">ვებ დიზაინი</li>
-                <li id="illustration2" onclick="illustrationClick(); closeNav()">ილუსტრაციები</li>
-                <li id="photoshop2" onclick="photoshopClick(); closeNav()">ფოტოშოპი</li>
-                <li id="photograph2">ფოტოგრაფია</li>
-                <li id="others2" onclick="othersClick(); closeNav()">სხვა</li>
-            </ul>
-            <div class="closeModal" onclick="closeNav()"></div>
-        </div>
-    </section>
     <section class="backgroundModal"  id="aboutMe">
         <div class="makeMeCentered">
             <div class="modal">
@@ -141,7 +164,7 @@
         <div class="snowflake">❆</div>
         <div class="snowflake">❄</div>
     </div>
-    <script src="assets/script/darkmode.js" async defer></script>
+    <script src="assets/script/darkmode.js"></script>
     <script src="assets/script/date.js" async defer></script>
     <script src="assets/script/navigation.js" async defer></script>
     <script src="assets/script/categories.js" async defer></script>
