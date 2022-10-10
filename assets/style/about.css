@@ -1,0 +1,104 @@
+footer{
+    width: 457px;
+}
+
+h2, h3{
+    font-family: 'MarkGeoCaps-B';
+    color: #363636;
+    margin: 0;
+    margin-top: 21px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+[data-theme="dark"] h2 {
+    color: #888888;
+    transition: 0.3s;
+}
+
+h3{
+    font-size: 26px;
+}
+
+[data-theme="dark"] h3 {
+    color: #888888;
+    transition: 0.3s;
+}
+
+.separate-content{
+    flex-direction: column;
+    gap: 12px;
+}
+
+p.aboutMe{
+    max-width: 100%;
+    opacity: 0.84;
+}
+
+[data-theme="dark"] p.aboutMe {
+    color: #888888;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+table {
+    font-family: 'MarkGeo-SB';
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    color: #363636;
+    font-size: 20px;
+}
+
+[data-theme="dark"] table {
+    color: #616161;
+    transition: 0.3s;
+}
+
+td, th {
+    border: 1px solid #CECECE;
+    text-align: left;
+    padding: 8px;
+}
+
+[data-theme="dark"] td {
+    border: 1px solid #464646;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] th {
+    border: 1px solid #464646;
+    transition: 0.3s;
+    color: #888888;
+}
+
+td a{
+    color: #363636;
+}
+
+[data-theme="dark"] td a {
+    color: #616161;
+    transition: 0.3s;
+}
+
+tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+[data-theme="dark"] tr:nth-child(even) {
+    background-color: #191919;
+    transition: 0.3s;
+}
+
+.vids{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.fbvid{
+    width: 49%;
+    height: 304px;
+}
