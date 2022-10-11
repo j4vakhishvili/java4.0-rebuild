@@ -9,3 +9,9 @@ let widthTwo = modalTwo.offsetWidth;
 
 let closeTwo = document.querySelector('.closeTwo');
 closeTwo.style.width = widthTwo + "px";
+
+let input = document.querySelector('.input');
+let inputWidth = input.offsetWidth;
+
+let submit = document.querySelector('.submit');
+submit.style.width = inputWidth + "px";

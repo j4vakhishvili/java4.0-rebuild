@@ -6,7 +6,7 @@
         <meta name="robots" content="index, follow">
         <meta name="language" content="georgian">
         <meta name="distribution" content="georgian">
-        <title>J4vakhishvili - Digital Portfolio</title>
+        <title>Contact : J4vakhishvili - Digital Portfolio</title>
         <meta name="description" content="მოგესალმები ნიკოლოზ ჯავახიშვილის ციფრულ პორტფოლიოში, იგი არის გრაფიკული დიზაინერი და ვებდეველოპერი, მეტის გასაგებად ეწვიეთ საიტს ツ">
         <meta name="author" content="J4vakhishvili, ნიკოლოზ ჯავახიშვილი">
         <meta name="copyright" content="J4vakhishvili">
@@ -21,35 +21,25 @@
         <link rel="stylesheet" href="assets/style/header.css">
         <link rel="stylesheet" href="assets/style/footer.css">
         <link rel="stylesheet" href="assets/style/portfolio.css">
+        <link rel="stylesheet" href="assets/style/about.css">
+        <link rel="stylesheet" href="assets/style/contact.css">
         <link rel="stylesheet" href="assets/style/snowflakes.css" id="winterCSS">
     </head>
 <body>
     <header>
         <div class="container">
-            <h1>J4vakhishvili</h1>
-            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" class="logo">
+            <h1 onclick="window.location.href='portfolio'" style="cursor: pointer;">J4vakhishvili</h1>
+            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" onclick="window.location.href='portfolio'" class="logo">
             <div class="headBtns">
                 <div class="contact head-btn" onclick="window.location.href='contact'"></div>
                 <div class="dark-mode head-btn" bis_skin_checked="1">
                     <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
                 </div>
-                <div class="menu head-btn" onclick="openNav()"></div>
             </div>
         </div>
     </header>
     <main>
         <section class="separate-main">
-            <nav>
-                <ul>
-                    <li class="on" id="all" onclick="allClick()">ყველაფერი</li>
-                    <li id="brand" onclick="brandClick()">ლოგო და ბრენდირება</li>
-                    <li id="webdev" onclick="webdevClick()">ვებ დიზაინი</li>
-                    <li id="illustration" onclick="illustrationClick()">ილუსტრაციები</li>
-                    <li id="photoshop" onclick="photoshopClick()">ფოტოშოპი</li>
-                    <li id="photograph">ფოტოგრაფია</li>
-                    <li id="others" onclick="othersClick()">სხვა</li>
-                </ul>
-            </nav>
             <footer>
                 <section class="social">
                     <a onclick="urlOne()" class="social" id="socialNameOne">YouTube</a>
@@ -67,15 +57,11 @@
         </section>
         <section class="fillthegap"></section>
         <section class="separate-content">
-            <img src="assets/media/gallery/covers/DeviEduCover.jpg" class="cover webdev" alt="edu devi education">
-            <img src="assets/media/gallery/covers/wineweb.jpg" class="cover webdev" alt="wineties">
-            <img src="assets/media/gallery/covers/astrex.jpg" class="cover brand" alt="astrex">
-            <img src="assets/media/gallery/covers/notimetodie.jpg" class="cover others" alt="No Time To Die Game by DEVi">
-            <img src="assets/media/gallery/covers/cloth-shop.jpg" class="cover webdev" alt="cloth-shop">
-            <img src="assets/media/gallery/covers/tsifruliproject.jpg" class="cover webdev" alt="tsifruli ციფრული">
-            <img src="assets/media/gallery/covers/playingcards.jpg" class="cover others" alt="Playing Cards">
-            <img src="assets/media/gallery/covers/a4strochess.jpg" class="cover photoshop" alt="ასტროჭადრაკი astrochess">
-            <img src="assets/media/gallery/covers/26may.jpg" class="cover illustration" alt="26may 26მაისი საქართველოს დამოუკიდებლობის დღე">
+            <center>
+                <h2>შეტყობინება მიღებულია</h2>
+                <h3>მალე დაგიკავშირდებით</h3>
+                <button class="submit" onclick="window.location.href='portfolio'">მთავარზე დაბრუნება</button>
+            </center>
         </section>
     </main>
     <div class="container">
@@ -94,20 +80,6 @@
             </section>
         </footer>
     </div>
-    <section class="backgroundModal"  id="menu">
-        <div class="container menu-cont">
-            <ul>
-                <li class="on" id="all2" onclick="allClick(); closeNav()">ყველაფერი</li>
-                <li id="brand2" onclick="brandClick(); closeNav()">ლოგო და ბრენდირება</li>
-                <li id="webdev2" onclick="webdevClick(); closeNav()">ვებ დიზაინი</li>
-                <li id="illustration2" onclick="illustrationClick(); closeNav()">ილუსტრაციები</li>
-                <li id="photoshop2" onclick="photoshopClick(); closeNav()">ფოტოშოპი</li>
-                <li id="photograph2">ფოტოგრაფია</li>
-                <li id="others2" onclick="othersClick(); closeNav()">სხვა</li>
-            </ul>
-            <div class="closeModal" onclick="closeNav()"></div>
-        </div>
-    </section>
     <section class="backgroundModal"  id="aboutMe">
         <div class="makeMeCentered">
             <div class="modal">
@@ -145,7 +117,7 @@
         <div class="snowflake">❆</div>
         <div class="snowflake">❄</div>
     </div>
-    <script src="assets/script/darkmode.js" async defer></script>
+    <script src="assets/script/darkmode.js"></script>
     <script src="assets/script/date.js" async defer></script>
     <script src="assets/script/navigation.js" async defer></script>
     <script src="assets/script/categories.js" async defer></script>
