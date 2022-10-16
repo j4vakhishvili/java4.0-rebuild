@@ -80,7 +80,7 @@ button.out:hover{
     border: none;
     padding: 40px;
     cursor: pointer;
-    opacity: 0.1;
+    opacity: 0.3;
     transition: 0.3s;
 }
 
