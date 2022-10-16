@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="theme-color" content="#FB2477">
-        <meta name="robots" content="index, follow">
+        <meta name="robots" content="noindex, follow">
+        <meta name="googlebot" content="noindex">
         <meta name="language" content="georgian">
         <meta name="distribution" content="georgian">
         <title>J4vakhishvili - Digital Portfolio</title>
@@ -27,10 +28,10 @@
 <body>
     <header>
         <div class="container">
-            <h1>J4vakhishvili</h1>
+            <h1 onclick="window.location.href='portfolio'" style="cursor: pointer;">J4vakhishvili</h1>
             <img src="../assets/icons/webicon.png" alt="J4vakhishvili logo" class="logo">
             <div class="headBtns">
-                <div class="contact head-btn" onclick="window.location.href='contact'"></div>
+                <div class="contact head-btn" onclick="window.location.href='../contact'"></div>
                 <div class="dark-mode head-btn" bis_skin_checked="1">
                     <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
                 </div>
@@ -84,7 +85,7 @@
             <div class="modal">
                 <p class="aboutMe">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
                     მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.
-                    <a href="about" class="link">მეტის გასაგებად დააკლიკე აქ ツ</a>
+                    <a href="../about" class="link">მეტის გასაგებად დააკლიკე აქ ツ</a>
                 </p>
             </div>
             <button class="close" id="close" onclick="closeAbout()">დახურვა</button>

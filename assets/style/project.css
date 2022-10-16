@@ -126,3 +126,14 @@ a.social{padding: 25px 0;width: 33%;}
 .ft-cont{
     height: auto;
 }
+
+[data-theme="dark"] button.out{
+    color: #838383;
+    border: 1px solid #868686;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] button.out:hover{
+    color: #303030;
+    transition: 0.3s;
+}
