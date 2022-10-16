@@ -165,10 +165,11 @@ a.rights:nth-child(2){
     }
     a.social {
         font-size: 18px;
-        padding: 12px 0px;
+        width: 100%;
     }
     section.social{
-        gap: 8px;
+        gap: 0px;
+        flex-direction: column;
     }
     .switchimg{
         background: url(../icons/arrow-icon.svg), rgba(255, 255, 255, 0.25);
