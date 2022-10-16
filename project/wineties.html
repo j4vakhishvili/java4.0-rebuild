@@ -7,7 +7,7 @@
         <meta name="googlebot" content="noindex">
         <meta name="language" content="georgian">
         <meta name="distribution" content="georgian">
-        <title>Test - J4vakhishvili - Digital Portfolio</title>
+        <title>ვაინთაის - J4vakhishvili - Digital Portfolio</title>
         <meta name="description" content="მოგესალმები ნიკოლოზ ჯავახიშვილის ციფრულ პორტფოლიოში, იგი არის გრაფიკული დიზაინერი და ვებდეველოპერი, მეტის გასაგებად ეწვიეთ საიტს ツ">
         <meta name="author" content="J4vakhishvili, ნიკოლოზ ჯავახიშვილი">
         <meta name="copyright" content="J4vakhishvili">
@@ -24,6 +24,18 @@
         <link rel="stylesheet" href="../assets/style/portfolio.css">
         <link rel="stylesheet" href="../assets/style/project.css">
         <link rel="stylesheet" href="../assets/style/snowflakes.css" id="winterCSS">
+        <style>
+            .other-logo{
+                width: 10%;
+                filter: invert(1);
+            }
+            [data-theme="dark"] .other-logo{
+                filter: invert(0);
+            }
+            button.closeproject{
+                background: rgb(242, 242, 242);
+            }
+        </style>
     </head>
 <body>
     <header>
@@ -39,6 +51,7 @@
         </div>
     </header>
     <section class="main">
+        <center><br><img src="../assets/media/gallery/project/wineties/wineties-logo.svg" alt="wineties logo ვაინთაის ლოგო" class="other-logo"><br><br><br></center>
         <section class="thumbnail" id="thumbnail">
             <main>
                 <section class="picture-block">
@@ -46,19 +59,16 @@
                         <button class="closeproject" onclick="window.location.href='../portfolio'">დახურვა <div class="icon-x"></div></button>
                     </div>
                     <picture>
-                        <img src="../assets/media/gallery/covers/notimetodie.jpg" alt="notimetodie" class="img">
-                        <img src="../assets/media/gallery/covers/DeviEduCover.jpg" alt="notimetodie" class="img">
-                        <img src="../assets/media/gallery/covers/cloth-shop.jpg" alt="notimetodie" class="img">
-                        <img src="../assets/media/gallery/covers/playingcards.jpg" alt="notimetodie" class="img">
-                        <div class="switchbuttons">
+                        <img src="../assets/media/gallery/covers/wineweb.jpg" alt="wineties ვაინთაის class="img">
+                        <!-- <div class="switchbuttons">
                             <button class="switchimg" onclick="prewSlide(-1)"></button>
                             <button class="switchimg switch-r" onclick="nextSlide(1)"></button>
-                        </div>
+                        </div> -->
                     </picture>
                 </section>
-                <div class="btnOut">
+                <!-- <div class="btnOut">
                     <button class="out" onclick="window.location.href='../portfolio'">საიტზე გადასვლა</button>
-                </div>
+                </div> -->
             </main>
             <div class="container ft-cont">
                 <footer class="responsive-1620">
@@ -119,7 +129,7 @@
     </div>
     <script>
         const thumbnail = document.getElementById('thumbnail');
-        thumbnail.style.background = "url(../assets/media/gallery/project/no-time-to-die/pattern.svg)";
+        thumbnail.style.background = "url(../assets/media/gallery/project/wineties/wineties-cover.jpeg)";
     </script>
     <script src="../assets/script/darkmode.js" async defer></script>
     <script src="../assets/script/date.js" async defer></script>
