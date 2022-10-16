@@ -137,3 +137,43 @@ a.social{padding: 25px 0;width: 33%;}
     color: #303030;
     transition: 0.3s;
 }
+
+a.rights:nth-child(2){
+    display: none;
+}
+
+@media only screen and (max-width: 620px){
+    main{
+        width: 82%;
+        padding-top: 25px;
+    }
+    .thumbnail {
+        height: 170px;
+    }
+    .switchimg{
+        padding: 32px;
+    }
+    button.closeproject{
+        width: 130px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .icon-x {
+        width: 10px;
+        height: 10px;
+        background-size: cover;
+    }
+    a.social {
+        font-size: 18px;
+        padding: 12px 0px;
+    }
+    section.social{
+        gap: 8px;
+    }
+    .switchimg{
+        background: url(../icons/arrow-icon.svg), rgba(255, 255, 255, 0.25);
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
+}
