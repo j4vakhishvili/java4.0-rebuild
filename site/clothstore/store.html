@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Store | მაღაზია</title>
+    <link rel="icon" href="assets/icons/site-icon-01.png">
+    <link rel="stylesheet" href="assets/style/default.css">
+    <link rel="stylesheet" href="assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/store.css">
+    <link rel="stylesheet" href="assets/style/slide.css">
+    <link rel="stylesheet" href="assets/style/shop-card.css">
+    <link rel="stylesheet" href="assets/style/shop-covers.css">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <a href="index.html" class="logo">cloth</a>
+            <nav>
+                <a href="index.html">მთავარი</a>
+                <a href="store.html" class="active">მაღაზია</a>
+                <a href="blog.html">ბლოგი</a>
+                <a href="contact.html">კონტაქტი</a>
+                <a href="about.html">ჩვენს შესახებ</a>
+            </nav>
+            <img src="assets/icons/menu.svg" class="menu-icon" onclick="openNav()">
+            <img src="assets/icons/categories-menu.svg" class="menu-icon categories-menu" onclick="openCategories()">
+            <div id="myNav" class="sidenav" style="width: 100%;">
+                <img src="assets/icons/cross.svg" class="closebtn" onclick="closeNav()">
+                <a href="index.html" data-text="მთავარი">მთავარი</a>
+                <a href="store.html" data-text="მაღაზია" class="on">მაღაზია</a>
+                <a href="blog.html" data-text="ბლოგი">ბლოგი</a>
+                <a href="contact.html" data-text="კონტაქტი">კონტაქტი</a>
+                <a href="about.html" data-text="ჩვენს შესახებ">ჩვენს შესახებ</a>
+            </div>
+            <div id="categories" class="ctg-bg" style="width: 100%;">
+            <div class="categories-m">
+                <img src="assets/icons/cross.svg" class="closebtn" onclick="closeCategories()">
+                <div class="category ctg-on" onclick="window.location.href='store.html'"><div class="ctg-icon ctg-all"></div><a class="ctg-title">ყველა</a></div>
+                <div class="category" onclick="window.location.href='hats.html'"><div class="ctg-icon ctg-hats"></div><a class="ctg-title">ქუდები</a></div>
+                <div class="category" onclick="window.location.href='shirts.html'"><div class="ctg-icon ctg-shirts"></div><a class="ctg-title">მაისურები</a></div>
+                <div class="category" onclick="window.location.href='pants.html'"><div class="ctg-icon ctg-pants"></div><a class="ctg-title">შარვლები</a></div>
+                <div class="category" onclick="window.location.href='dress.html'"><div class="ctg-icon ctg-dress"></div><a class="ctg-title">კაბები</a></div>
+                <div class="category" onclick="window.location.href='shoes.html'"><div class="ctg-icon ctg-shoes"></div><a class="ctg-title">ფეხსაცმელები</a></div>
+                <div class="category" onclick="window.location.href='bags.html'"><div class="ctg-icon ctg-bags"></div><a class="ctg-title">ჩანთები</a></div>
+                <div class="category" onclick="window.location.href='accsessories.html'"><div class="ctg-icon ctg-accsessories"></div><a class="ctg-title">აქსესუარები</a></div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <div class="freespace"></div>
+    <div class="container">
+        <article class="slideshow">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade slide-cover1"></div>
+            
+            <div class="mySlides fade slide-cover2"></div>
+            
+            <div class="mySlides fade slide-cover3"></div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </article>
+        <div class="categories">
+            <div class="category ctg-on" onclick="window.location.href='store.html'"><div class="ctg-icon ctg-all"></div><a class="ctg-title">ყველა</a></div>
+            <div class="category" onclick="window.location.href='hats.html'"><div class="ctg-icon ctg-hats"></div><a class="ctg-title">ქუდები</a></div>
+            <div class="category" onclick="window.location.href='shirts.html'"><div class="ctg-icon ctg-shirts"></div><a class="ctg-title">მაისურები</a></div>
+            <div class="category" onclick="window.location.href='pants.html'"><div class="ctg-icon ctg-pants"></div><a class="ctg-title">შარვლები</a></div>
+            <div class="category" onclick="window.location.href='dress.html'"><div class="ctg-icon ctg-dress"></div><a class="ctg-title">კაბები</a></div>
+            <div class="category" onclick="window.location.href='shoes.html'"><div class="ctg-icon ctg-shoes"></div><a class="ctg-title">ფეხსაცმელები</a></div>
+            <div class="category" onclick="window.location.href='bags.html'"><div class="ctg-icon ctg-bags"></div><a class="ctg-title">ჩანთები</a></div>
+            <div class="category" onclick="window.location.href='accsessories.html'"><div class="ctg-icon ctg-accsessories"></div><a class="ctg-title">აქსესუარები</a></div>
+        </div>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-cover1"></div>
+            <p class="shop-card-title">Nike air mag <a class="nike-air2021">2021</a></p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-cover2"></div>
+            <p class="shop-card-title">Suisse Football Cap</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-cover3"></div>
+            <p class="shop-card-title">BAGHADBILLO Unisex Blue</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-cover4"></div>
+            <p class="shop-card-title">Waterproof Backpack </p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-denim"></div>
+            <p class="shop-card-title">Denim Shirt Jeans</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-baseball-cap"></div>
+            <p class="shop-card-title">Cotton Baseball Cap</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-Hublot"></div>
+            <p class="shop-card-title">Hublot Geneve</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-jordan"></div>
+            <p class="shop-card-title">Nike Air Jordan</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <article class="shop-card">
+            <div class="shop-card-img shop-img-Vestido"></div>
+            <p class="shop-card-title">Vestido de flores</p>
+            <p class="shop-card-price">145₾</p>
+            <button onclick="window.location.href='#'">შეძენა</button>
+        </article>
+        <footer>
+            <div class="ft-content ft-menu">
+                <p>ნავიგაცია</p>
+                <ul>
+                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="store.html">მაღაზია</a></li>
+                    <li><a href="blog.html">ბლოგი</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                    <li><a href="about.html">ჩვენს შესახებ</a></li>
+                </ul>
+            </div>
+            <div class="ft-content ft-services">
+                <p>სერვისები</p>
+                <ul>
+                    <li><a href="#" onclick="alertFunc()">დახმარება</a></li>
+                    <li><a href="#" onclick="alertFunc()">ხშირად დასმული კითხვები</a></li>
+                    <li><a href="#" onclick="alertFunc()">გარანტია</a></li>
+                    <li><a href="#" onclick="alertFunc()">ონლაინ ჩატი</a></li>
+                    <li><a href="#" onclick="alertFunc()">წესდება და პოლიტიკა</a></li>
+                </ul>
+            </div>
+            <div class="ft-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.6514256843147!2d43.87502271573218!3d42.15774547920093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044afa863869f77%3A0xe1413fa928cc819b!2z4YOh4YOQ4YOW4YOQ4YOb4YOX4YOg4YOd4YOhIOGDqeGDkOGDoeGDkOGDquGDmOGDlOGDkeGDlOGDmuGDmCDhg6zhg6fhg5Dhg6Dhg50!5e0!3m2!1ska!2sge!4v1626636690007!5m2!1ska!2sge"style="border:0;" allowfullscreen="" loading="lazy" class="gmaps"></iframe>
+            </div>
+            <div class="ft-rights-and-more">
+                <a href="https://www.j4va.tk/" target="_blank"><div class="dd-j4"></div></a>
+                <div class="rights">
+                    <p>©2020-2021</p>
+                    <p>All rights reserved</p>
+                    <p class="dd">Designed and Developed by <a href="https://www.j4va.tk/" target="_blank">J4vakhishvili</a></p>
+                </div>
+            </div>
+            <div class="ft-pay">
+                <p>გადახდის მეთოდები</p>
+                <img src="assets/icons/payment-icon-01.jpg" class="payment-icon">
+                <img src="assets/icons/payment-icon-02.jpg" class="payment-icon">
+                <img src="assets/icons/payment-icon-03.jpg" class="payment-icon">
+            </div>
+        </footer>
+    </div>
+    <script src="assets/script/menu.js"></script>
+    <script src="assets/script/slide.js"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>

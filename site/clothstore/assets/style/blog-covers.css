@@ -1,0 +1,15 @@
+.blog-img-cover1{
+    position: relative;
+}
+
+.blog-img-cover2{
+    background: url(../images/nike-boots.jpg);
+    background-position: 50% 51%;
+    background-size: cover;
+}
+
+.blog-img-cover3{
+    background: url(../images/woman-shopping.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}

@@ -1,0 +1,299 @@
+.contact{
+    width: 100%;
+    height: 465px;
+    border: 1px solid black;
+}
+
+.contact-title{
+    margin: 0;
+    font-size: 58px;
+    font-family: 'Main', 'Gilroy', 'Bog-Caps', 'Bog', sans-serif;
+    color: #ffb000;
+    padding-top: 25px;
+    padding-left: 35px;
+    margin-bottom: 35px;
+}
+
+.maps{
+    width: 690px;
+    height: 465px;
+    border-left: 1px solid black;
+    float: right;
+}
+
+.gmap{
+    width: 690px;
+    height: 465px;
+}
+
+.contact-space-one{
+    display: inline-block;
+    width: 270px;
+    height: 155px;
+}
+
+.contact-space-two{
+    display: inline-block;
+    width: 600px;
+    height: 155px;
+    margin-left: 30px;
+}
+
+.contact-titles{
+    margin: 0;
+    padding-left: 34px;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.contact-infos{
+    margin: 0;
+    font-family: 'Bog', sans-serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.contact-social{
+    width: 440px;
+    height: 115px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.social-txt{
+    margin: 0;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
+    background: rgb(230, 230, 230);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 14px;
+    margin-top: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.yt{
+    background: url(../icons/youtube-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.fb{
+    background: url(../icons/facebook-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.ig{
+    background: url(../icons/instagram-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.tw{
+    background: url(../icons/twitter-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.in{
+    background: url(../icons/linkedin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.rd{
+    background: url(../icons/reddit-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.yt:hover{
+    background: url(../icons/youtube-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.fb:hover{
+    background: url(../icons/facebook-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.ig:hover{
+    background: url(../icons/instagram-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.tw:hover{
+    background: url(../icons/twitter-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.in:hover{
+    background: url(../icons/linkedin-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.rd:hover{
+    background: url(../icons/reddit-icon-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1650px){
+    .contact-titles, .contact-infos{
+        font-size: 26px;    
+    }
+    .contact-space-one {
+        width: 220px;
+    }
+    .contact-space-two {
+        width: 440px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .contact-title{
+        font-size: 46px;
+    }
+    .maps, .gmap{
+        width: 550px;
+        height: 405px;
+    }
+    .contact-titles, .contact-infos {
+        font-size: 24px;
+    }
+    .contact-space-one {
+        width: 190px;
+    }
+    .contact-social {
+        margin-top: 0;
+    }
+    .social-txt{
+        font-size: 30px;
+    }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .contact-social {
+        width: 380px;
+    }
+    .contact{
+        height: 405px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .maps, .gmap{
+        width: 100%;
+        height: 405px;
+        border-left: 0;
+        border-bottom: 1px solid black;
+    }
+    .contact{
+        height: 800px;
+    }
+    .contact-title{
+        margin-top: 400px;
+    }
+    .contact-space-one {
+        width: 220px;
+    }
+    .contact-space-two {
+        width: 475px;
+        margin-left: 30px;
+    }
+    .contact-titles, .contact-infos {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .contact-title {
+        font-size: 24px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        margin-top: 240px;
+    }
+    .contact-space-one {
+        width: 106px;
+        height: 90px;
+    }
+    .contact-titles, .contact-infos {
+        font-size: 14px;
+    }
+    .contact-titles{
+        padding-left: 15px;
+    }
+    .contact-space-two {
+        width: 165px;
+        height: 125px;
+        margin-left: 15px;
+    }
+    .social-txt {
+        font-size: 20px;
+        border-bottom: 2px solid black;
+    }
+    .contact-social{
+        margin-left: 15px;
+    }
+    .maps, .gmap {
+        height: 245px;
+    }
+    .social-icon {
+        width: 37px;
+        height: 37px;
+        margin-right: 1px;
+        margin-top: 7px;
+        border: 2px solid black;
+    }
+    .contact-social {
+        width: 272px;
+    }
+    .contact {
+        height: 525px;
+    }
+}
