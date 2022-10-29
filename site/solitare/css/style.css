@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'bog';
+    src: url(fonts/bog.ttf);
+}
+
+.logo{
+  width: 30px;
+  cursor: url(cursors/smooth-x.png), pointer;
+  float: right;
+}
+
+.gobck {
+  height: 15px;
+  padding: 10px 7px 10px 7px;
+  border-radius: 10px;
+  filter: invert(100%);
+  background: #31313114;
+  float: left;
+  cursor: url(cursors/smooth-x.png), pointer;
+}
+
+button:focus{
+  outline: none;
+}
+
+body {
+  background-color: #040634;
+  font-size: 9px;
+  min-width: 300px;
+  font-family: sans-serif;
+  color: white;
+  font-family: 'bog';
+}
+
+button {
+  font-family: 'bog';
+  font-size: 16px;
+  color: white;
+  background: #141640;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 10px;
+  cursor: url(cursors/smooth-x.png), pointer;
+}
+
+span {
+  display: block;
+  padding: 0px 20px;
+  margin-top: 5px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 290px;
+}
+
+.empty {
+  opacity: 0;
+}
+  
+.winMessage {
+  text-align: center;
+}
+
+.topPanel {
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  width: 4.0em;
+  height: 5.5em;
+  border-radius: 0.3em;
+  margin: 20px 2px -45px 2px;
+}
+
+@media only screen and 
+(min-width: 860px) {
+  body {
+    min-width: 860px;
+    color: white;
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0 20px;
+}
+  .wrapper {
+  margin: 0 auto;
+  width: 860px;
+}
+
+  .topPanel {
+    text-align: center;
+    padding: 10px;
+  }
+  .card {
+    margin: 0px 5px -80px 5px;  
+    width: 112px;
+    height: 157px;  
+    border-radius: 7px;
+  }
+}

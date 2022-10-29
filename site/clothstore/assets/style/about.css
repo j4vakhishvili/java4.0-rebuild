@@ -1,0 +1,20 @@
+.about h1{
+    font-size: 55px;
+    font-family: 'Main', 'Gilroy', 'Bog-Caps', 'Bog', sans-serif;
+}
+
+.about h2{
+    font-size: 32px;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 850px){
+    .about h1{
+        font-size: 25px;
+    }
+    
+    .about h2 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,164 @@
+.ctg-icon{
+    width: 25px;
+    height: 25px;
+    background: rgb(230, 230, 233);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+}
+
+.ctg-title{
+    font-size: 25px;
+    color: black;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    padding-left: 10px;
+}
+
+.category{
+    display: inline-block;
+    margin-right: 22px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.ctg-on{
+    border-bottom: 3px solid #ffb000;
+}
+
+.category:hover{
+    border-bottom: 3px solid #b6b6b6;
+    transition: 0.3s;
+}
+
+.categories{
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.ctg-all{
+    background: url(../icons/categories-all.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-hats{
+    background: url(../icons/categories-hat.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-shirts{
+    background: url(../icons/categories-shirt.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-pants{
+    background: url(../icons/categories-pants.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-dress{
+    background: url(../icons/categories-dress.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-shoes{
+    background: url(../icons/categories-shoes.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-bags{
+    background: url(../icons/categories-bag.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.ctg-accsessories{
+    background: url(../icons/categories-accsessories.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.categories-menu{
+    margin-right: 55px;
+}
+
+.ctg-bg {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #ffffffed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+    transition: 0.3s;
+}
+
+.ctg-bg .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+.closebtn {
+    padding: 30px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.categories-m{
+    margin-left: 30px;
+}
+
+.categories-m > .category{
+    display: block;
+}
+
+@media only screen and (max-width: 1650px){
+    .category {
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .categories{
+        display: none;
+    }
+    .shop-card{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .category {
+        padding-bottom: 2px;
+        margin-bottom: 15px;
+    }
+    .categories-menu{
+        margin-right: 20px;
+    }
+    .closebtn{
+        width: 34px;
+        right: 0px;
+    }
+}

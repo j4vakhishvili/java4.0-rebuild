@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ge" prefix="og: https://www.j4vakhishvili.tk/portfolio">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#FB2477">
+        <meta name="robots" content="noindex, follow">
+        <meta name="googlebot" content="noindex">
+        <meta name="language" content="georgian">
+        <meta name="distribution" content="georgian">
+        <title>კოსმიური ჭადრაკი - J4vakhishvili - Digital Portfolio</title>
+        <meta name="description" content="მოგესალმები ნიკოლოზ ჯავახიშვილის ციფრულ პორტფოლიოში, იგი არის გრაფიკული დიზაინერი და ვებდეველოპერი, მეტის გასაგებად ეწვიეთ საიტს ツ">
+        <meta name="author" content="J4vakhishvili, ნიკოლოზ ჯავახიშვილი">
+        <meta name="copyright" content="J4vakhishvili">
+        <meta property="og:title" content="J4vakhishvili - Digital Portfolio">
+        <meta property="og:url" content="https://www.j4vakhishvili.tk/portfolio">
+        <meta property="og:image" content="https://www.j4vakhishvili.tk/../assets/media/decoration/welcome-to-my-digital-portfolio-j4.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../assets/icons/webicon.png">
+        <link rel="canonical" href="https://www.j4vakhishvili.tk/portfolio">
+        <link rel="stylesheet" href="../assets/style/default.css">
+        <link rel="stylesheet" href="../assets/style/main.css">
+        <link rel="stylesheet" href="../assets/style/header.css">
+        <link rel="stylesheet" href="../assets/style/footer.css">
+        <link rel="stylesheet" href="../assets/style/portfolio.css">
+        <link rel="stylesheet" href="../assets/style/project.css">
+        <link rel="stylesheet" href="../assets/style/snowflakes.css" id="winterCSS">
+        <style>
+            .thumbnail{
+                background: url(../assets/media/gallery/project/khinkali/khinkalibg.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1 onclick="window.location.href='../portfolio'" style="cursor: pointer;">J4vakhishvili</h1>
+            <img src="../assets/icons/webicon.png" alt="J4vakhishvili logo" class="logo" onclick="window.location.href='../portfolio'">
+            <div class="headBtns">
+                <div class="contact head-btn" onclick="window.location.href='../contact'"></div>
+                <div class="dark-mode head-btn" bis_skin_checked="1">
+                    <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <section class="thumbnail">
+            <main>
+                <section class="picture-block">
+                    <div class="closeproject">
+                        <button class="closeproject" onclick="window.location.href='../portfolio'">დახურვა <div class="icon-x"></div></button>
+                    </div>
+                    <picture>
+                        <img src="../assets/media/gallery/covers/khinkali.jpg" alt="ხინკალი khinkali სახინკლე ხინკლის სახლი" class="img">
+                        <!-- <div class="switchbuttons">
+                            <button class="switchimg" onclick="prewSlide(-1)"></button>
+                            <button class="switchimg switch-r" onclick="nextSlide(1)"></button>
+                        </div> -->
+                    </picture>
+                </section>
+                <!-- <div class="btnOut">
+                    <button class="out" onclick="window.location.href='../portfolio'">საიტზე გადასვლა</button>
+                </div> -->
+            </main>
+            <div class="container ft-cont">
+                <footer class="responsive-1620">
+                    <section class="social">
+                        <a onclick="urlOne()" class="social" id="socialLinkOne">YouTube</a>
+                        <a onclick="urlTwo()" class="social" id="socialLinkTwo">Dribbble</a>
+                        <a onclick="urlThree()" class="social" id="socialLinkThree">Facebook</a>
+                    </section>
+                    <section class="about">
+                        <a class="about" onclick="openAbout()">ჩემს შესახებ</a>
+                        <a class="about" onclick="openResume()">რეზიუმე</a>
+                    </section>
+                    <section class="rights">
+                        <a class="rights">© <i id="dateFooter" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
+                        <a class="rights">© <i id="date" style="display: none;"></i> - ყველა უფლება დაცულია</a>
+                    </section>
+                </footer>
+            </div>
+        </section>
+    </section>
+    
+    <section class="backgroundModal"  id="aboutMe">
+        <div class="makeMeCentered">
+            <div class="modal">
+                <p class="aboutMe">გამარჯობა, შენ ჩემს ციფრულ პორტფოლიოში მოხვდი ツ<br>
+                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული დიზაინერი, Front-End დეველოპერი, Unity დეველოპერი (C#) და ფოტოგრაფი, აქ შენ შეგიძლია გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს.
+                    <a href="../about" class="link">მეტის გასაგებად დააკლიკე აქ ツ</a>
+                </p>
+            </div>
+            <button class="close" id="close" onclick="closeAbout()">დახურვა</button>
+        </div>
+    </section>
+    <section class="backgroundModal"  id="resume">
+        <div class="makeMeCentered">
+            <div class="modal modalTwo">
+                <a href="../assets/media/gallery/resume.pdf" target="_blank">
+                    <section class="resume">
+                        <section class="onHoverCover">
+                            <div class="downloadIcon"></div>
+                        </section>
+                    </section>
+                </a>
+            </div>
+            <button class="close closeTwo" id="close" onclick="closeResume()">დახურვა</button>
+        </div>
+    </section>
+    <div class="snowflakes" id="snowflakes">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+    </div>
+    <script src="../assets/script/darkmode.js" async defer></script>
+    <script src="../assets/script/date.js" async defer></script>
+    <script src="../assets/script/navigation.js" async defer></script>
+    <script src="../assets/script/categories.js" async defer></script>
+    <script src="../assets/script/modal.js" async defer></script>
+    <script src="../assets/script/footer.js" async defer></script>
+    <script src="../assets/script/switcher.js" async defer></script>
+</body>
+</html>

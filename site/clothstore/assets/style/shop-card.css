@@ -1,0 +1,122 @@
+.shop-card{
+    width: 520px;
+    height: 480px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.shop-card-img{
+    width: 100%;
+    height: 310px;
+    background: #e6e6e6;
+    border-bottom: 1px solid black;
+}
+
+.shop-card-title{
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px;
+    margin: 0;
+    width: 370px;
+    display: inline-block;
+}
+
+.nike-air2021{
+    font-family: 'decor';
+    color: #0092ff;
+}
+
+.shop-card-price{
+    color: #ffb000;
+    font-family: 'Main';
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.shop-card button{
+    background-color: #ffb000;
+    border: 1px solid black;
+    width: 470px;
+    height: 65px;
+    margin-left: 25px;
+    font-family: 'Main', 'Gilroy', 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sh-card-v4{
+    display: none;
+}
+
+.shop-card button:hover{
+    background: #d17b00;
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1650px){
+    .shop-card {
+        width: 458px;
+    }
+    .shop-card-title{
+        width: 310px;
+    }
+    .shop-card button{
+        width: 410px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .shop-card {
+        width: 392px;
+        height: 508px;
+        margin-left: 3px;
+    }
+    .shop-card-title{
+        width: 245px;
+        height: 85px;
+        padding: 20px;
+    }
+    .shop-card button{
+        width: 345px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .shop-card{
+        margin-bottom: 8px;
+    }
+    .sh-card-v4{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .shop-card {
+        width: 100%;
+        height: 415px;
+    }
+    .shop-card-img{
+        height: 220px;
+    }
+    .shop-card-title{
+        font-size: 28px;
+        width: 180px;
+        padding: 15px;
+    }
+    .shop-card-price{
+        padding-right: 15px;
+    }
+    .shop-card button {
+        width: 270px;
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,54 @@
+.active{
+    color: #0092ff;
+}
+
+.active:hover{
+    color: #0092ff;
+}
+
+.on{
+    text-shadow: 0px 0px #0092ff;
+}
+
+.dd-j4:hover{
+    background: #111 url(../icons/dd-j4va-blue.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.rights a {
+    color: #0092ff;
+    text-decoration: none;
+}
+
+.ft-content ul li a:hover {
+    text-decoration: underline #0092ff;
+    transition: 0.2s;
+}
+
+.sidenav a:hover:before {
+    color: #006ec2;
+    z-index: 1;
+    -webkit-text-stroke: 1px #000000;
+    transform: translate(10px, -10px);
+}
+
+.sidenav a:hover::after {
+    color: #0092ff;
+    z-index: 2;
+    -webkit-text-stroke: 1px black;
+    transform: translate(20px, -20px);
+}
+
+.activated{
+    background-color: #0092ff;
+}
+
+.dot:hover{
+    background-color: #0092ff;
+}
+
+::selection {
+    background: #0092ff;
+    color: white;
+}

@@ -1,0 +1,243 @@
+.feelimg{
+    width: 100%;
+    height: 450px;
+    background: #111 url(../images/mainimg.jpg);
+    background-position: 50% 50%;
+}
+
+.feel{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-family: 'Gilroy', 'Main', 'Bog-C', sans-serif;
+    font-size: 140px;
+    margin: 0;
+    display: flow-root;
+}
+
+.quality{
+    text-align: center;
+    color: transparent;
+    text-shadow: 0px -35px #0092ff;
+    font-family: 'decor', 'Bog-C', sans-serif;
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 75px;
+    font-weight: normal;
+    margin-left: 530px;
+    line-height: 0px;
+    cursor: default;
+}
+
+.quality:hover{
+    text-shadow: 0px -35px #0094ff, 0px -35px 15px #0092ff;;
+}
+
+.post{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.post a{
+    color: #ffb000;
+    font-size: 60px;
+    font-family: 'Main';
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+.post a:hover{
+    color: #0092ff;
+    transition: 0.3s;
+}
+
+.newtab{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: url(../icons/newtab.svg);
+    cursor: pointer;
+}
+
+.newtab:hover{
+    background: url(../icons/newtab-invert.svg);
+    transition: 0.3s;
+}
+
+div.blog{
+    background: url(../icons/newtab-invert.svg);
+}
+
+div.blog:hover{
+    background: url(../icons/newtab.svg);
+    transition: 0.3s;
+}
+
+a.blog{
+    color: #0092ff;
+}
+
+a.blog:hover{
+    color: #ffb000;
+    transition: 0.3s;
+}
+
+.blog-card{
+    width: 515px;
+    height: 630px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.blog-card-title{
+    color: black;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 26px;
+    padding: 25px;
+    margin: 0;
+}
+
+.blog-card-img{
+    width: 100%;
+    height: 345px;
+    background: #111;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.blog-card-desc{
+    width: 485px;
+    height: 70px;
+    font-size: 16px;
+    font-family: 'Bog', 'Bog-Caps', sans-serif;
+    padding: 25px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.blog-card button{
+    width: 465px;
+    height: 60px;
+    background: #0092ff;
+    border: 1px solid black;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Main', 'Gilroy', 'Bog-Caps', 'Bog', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blog-card button:hover{
+    background: #0072c8;
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+.video1{
+    height: 345px;
+}
+
+@media only screen and (max-width: 1650px){
+    .blog-card {
+        width: 454px;
+        height: 600px;
+        margin-right: 8px;
+    }
+    
+    .video1, .blog-card-img{
+        height: 304px;
+    }
+
+    .blog-card-desc{
+        width: 415px;
+        height: 90px;
+        padding: 20px;
+    }
+
+    .blog-card button {
+        width: 405px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .blog-card {
+        width: 392px;
+        height: 580px;
+        margin-right: 3px;
+    }
+    
+    .video1, .blog-card-img {
+        height: 263px;
+    }
+
+    .blog-card-desc {
+        width: 353px;
+        height: 110px;
+        padding: 20px;
+    }
+
+    .blog-card button {
+        width: 340px;
+    }
+    .newtab {
+        height: 55px;
+        width: 55px;
+    }
+    .post a{
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .card-v3{
+        display: none;
+    }
+    .sh-card-v4{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .feelimg{
+        height: 230px;
+    }
+    .feel{
+        font-size: 44px;
+        padding-top: 100px;
+    }
+    .quality{
+        font-size: 28px;
+        margin-left: 156px;
+        text-shadow: 0px -12px #0092ff;
+    }
+    .quality:hover {
+        text-shadow: 0px -12px #0094ff, 0px -12px 15px #0092ff;
+    }
+    .newtab {
+        height: 30px;
+        width: 30px;
+    }
+    .post a {
+        font-size: 26px;
+        padding-left: 10px;
+    }
+    .blog-card {
+        width: 100%;
+        height: 565px;
+        margin-bottom: 15px;
+    }
+    .video1, .blog-card-img {
+        height: 200px;
+    }
+    .blog-card-desc {
+        width: 270px;
+        height: 150px;
+        padding: 15px;
+    }
+    .blog-card button {
+        width: 270px;
+        margin-left: 15px;
+    }
+}

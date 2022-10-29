@@ -1,0 +1,125 @@
+.blog-post-cover, .blogcover{
+    width: 100%;
+    height: 450px;
+}
+
+.blogcover{
+    background: #0092ff80;
+}
+
+.blog-img{
+    width: 687px;
+    height: 460px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.blogpost-cont{
+    padding-top: 100px;
+}
+
+.fix{
+    margin-top: 1050px;
+}
+
+.blog-title{
+    font-size: 70px;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    float: right;
+    margin: 0;
+    margin-top: 355px;
+}
+
+.blog-content{
+    font-size: 40px;
+    font-family: 'Bog', sans-serif;
+    opacity: 80%;
+}
+
+.gobck{
+    font-size: 20px;
+    color: white;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.gobck:hover{
+    padding-left: 5px;
+    border-left: 4px solid white;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1650px){
+    .blog-title {
+        font-size: 58px;
+    }
+    .blog-content {
+        font-size: 35px;
+    }    
+    .fix{
+        margin-top: 950px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .blog-img{
+        width: 627px;
+        height: 420px;
+    }
+    .blog-title {
+        font-size: 46px;
+        margin-top: 335px;
+    }
+    .blog-content {
+        font-size: 28px;
+    }  
+    .fix{
+        margin-top: 700px;
+    } 
+    .blog-post-cover, .blogcover {
+        height: 440px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .blog-img{
+        width: 100%;
+        height: 535px;
+    }
+    .blog-title {
+        margin-top: 25px;
+        float: inherit;
+    }
+    .blog-content {
+        font-size: 24px;
+    }  
+    .fix{
+        margin-top: 950px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .blog-img{
+        height: 201px;
+    }
+    .blog-post-cover, .blogcover {
+        height: 205px;
+    }
+    .blog-title {
+        font-size: 25px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #0091ff;
+    }
+    .blog-content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .fix{
+        margin-top: 980px;
+    }
+    .blogpost-cont {
+        padding-top: 48px;
+    }
+}
