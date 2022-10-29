@@ -18,7 +18,8 @@ var imgCount = 4;
             images[2] = "wineweb.jpg",
             images[3] = "wineweb.jpg",
             images[4] = "wineweb.jpg",
-            header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
+            // header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
+            header.style.background = "url("https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png"), #fb2477";
 
 let snowflakes = document.getElementById("winterCSS");
 let snowflakesHTML = document.getElementById("snowflakes");
