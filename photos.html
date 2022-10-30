@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ge" prefix="og: https://www.j4vakhishvili.tk/portfolio">
+<html lang="ge" prefix="og: https://www.j4vakhishvili.tk/photos">
     <head>
         <meta charset="utf-8">
         <meta name="theme-color" content="#FB2477">
@@ -11,22 +11,23 @@
         <meta name="author" content="J4vakhishvili, ნიკოლოზ ჯავახიშვილი">
         <meta name="copyright" content="J4vakhishvili">
         <meta property="og:title" content="J4vakhishvili - Digital Portfolio">
-        <meta property="og:url" content="https://www.j4vakhishvili.tk/portfolio">
+        <meta property="og:url" content="https://www.j4vakhishvili.tk/photos">
         <meta property="og:image" content="https://www.j4vakhishvili.tk/assets/media/decoration/welcome-to-my-digital-portfolio-j4.jpg">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="assets/icons/webicon.png">
-        <link rel="canonical" href="https://www.j4vakhishvili.tk/portfolio">
+        <link rel="canonical" href="https://www.j4vakhishvili.tk/photos">
         <link rel="stylesheet" href="assets/style/default.css">
         <link rel="stylesheet" href="assets/style/main.css">
         <link rel="stylesheet" href="assets/style/loading.css">
         <link rel="stylesheet" href="assets/style/header.css">
         <link rel="stylesheet" href="assets/style/footer.css">
         <link rel="stylesheet" href="assets/style/portfolio.css">
+        <link rel="stylesheet" href="assets/style/photos.css">
         <link rel="stylesheet" href="assets/style/snowflakes.css" id="winterCSS">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 <body>
-    <section class="loading animate__animated animate__fadeOutUp animate__delay-1s">
+    <section class="loading animate__animated animate__fadeOutUp animate__delay-3s">
         <img src="assets/icons/webicon.png">
     </section>
     <header>
@@ -43,51 +44,46 @@
         </div>
     </header>
     <main>
-        <section class="separate-main">
-            <nav>
-                <ul>
-                    <li class="on" id="all" onclick="allClick()">ყველაფერი</li>
-                    <li id="brand" onclick="brandClick()">ლოგო და ბრენდირება</li>
-                    <li id="webdev" onclick="webdevClick()">ვებ დიზაინი</li>
-                    <li id="illustration" onclick="illustrationClick()">ილუსტრაციები</li>
-                    <li id="photoshop" onclick="photoshopClick()">ფოტოშოპი</li>
-                    <li id="photograph" onclick="window.open('photos')">ფოტოგრაფია</li>
-                    <li id="others" onclick="othersClick()">სხვა</li>
-                </ul>
-            </nav>
-            <footer>
-                <section class="social">
-                    <a onclick="urlOne()" class="social" id="socialNameOne">YouTube</a>
-                    <a onclick="urlTwo()" class="social" id="socialNameTwo">Dribbble</a>
-                    <a onclick="urlThree()" class="social" id="socialNameThree">Facebook</a>
-                </section>
-                <section class="about">
-                    <a class="about" onclick="openAbout()">ჩემს შესახებ</a>
-                    <a class="about" onclick="openResume()">რეზიუმე</a>
-                </section>
-                <section class="rights">
-                    <a class="rights">© <i id="date" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
-                </section>
-            </footer>
-        </section>
-        <section class="fillthegap"></section>
-        <section class="separate-content">
-            <img onclick="window.location.href='project/edu-devi'" src="assets/media/gallery/covers/DeviEduCover.jpg" class="cover webdev" alt="edu devi education">
-            <img onclick="window.location.href='project/wineties'" src="assets/media/gallery/covers/wineweb.jpg" class="cover webdev" alt="wineties">
-            <img onclick="window.location.href='project/no-time-to-die'" src="assets/media/gallery/covers/notimetodie.jpg" class="cover others" alt="No Time To Die Game by DEVi">
-            <img onclick="window.location.href='project/astrex'" src="assets/media/gallery/covers/astrex.jpg" class="cover brand" alt="astrex">
-            <img onclick="window.location.href='project/cloth-shop'" src="assets/media/gallery/covers/cloth-shop.jpg" class="cover webdev" alt="cloth-shop">
-            <img onclick="window.location.href='project/tsifruli'" src="assets/media/gallery/covers/tsifruli.jpg" class="cover webdev" alt="tsifruli ციფრული">
-            <!-- <img src="assets/media/gallery/covers/playingcards.jpg" class="cover others" alt="Playing Cards"> -->
-            <img onclick="window.location.href='project/khinkali'" src="assets/media/gallery/covers/khinkali.jpg" class="cover photoshop" alt="ხინკალი khinkali ხინკლის სახლი სახინკლე">
-            <img onclick="window.location.href='project/astrochess'" src="assets/media/gallery/covers/a4strochess.jpg" class="cover photoshop" alt="ჭადრაკი კოსმოსში astrochess">
-            <!-- <img src="assets/media/gallery/covers/26may.jpg" class="cover illustration" alt="26may 26მაისი საქართველოს დამოუკიდებლობის დღე"> -->
-            <img onclick="window.location.href='project/gamingbuddy'" src="assets/media/gallery/covers/gamingbuddy.png" class="cover brand" alt="GamingBuddy">
-            <img onclick="window.location.href='project/chessbook'" src="assets/media/gallery/covers/chessbook.jpg" class="cover others" alt="ჭადრაკი ჭადრაკის გაკვეთილები ჭადრაკის წიგნი ჭადრაკის სწავლა chess book">
-            <img onclick="window.location.href='project/runner'" src="assets/media/gallery/covers/darknes runner.gif" class="cover photoshop" alt="ტყეში სირბილი ტყეში მორბენალი">
-            <img onclick="window.location.href='project/skull'" src="assets/media/gallery/covers/skull.jpg" class="cover illustration" alt="skull თავისქალა ილუსტრაცია">
-            <img onclick="window.location.href='project/egirl'" src="assets/media/gallery/covers/egirl.jpg" class="cover illustration" alt="egirl">
-        </section>
+        <div class="row">
+            <div class="column">
+              <img src="assets/media/photography/bridge-01.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_6359.jpg" loading="lazy">
+              <img src="assets/media/photography/6.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_5691.jpg" loading="lazy">
+              <img src="assets/media/photography/20200328171730_IMG_1749.jpg" loading="lazy">
+              <img src="assets/media/photography/20200317_101212.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_3960.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_5570.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_3858.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_4149.JPG" loading="lazy">
+              
+            </div>
+            <div class="column">
+              <img src="assets/media/photography/tbilisi view-01.jpg" loading="lazy">
+              <img src="assets/media/photography/20200825203850_IMG_3156.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_6368.jpg" loading="lazy">
+              <img src="assets/media/photography/+.JPG" loading="lazy">
+              <img src="assets/media/photography/20200328_173014.jpg" loading="lazy">
+              <img src="assets/media/photography/tbilisi sea-01.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_4013.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_5602.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_5615.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_5586.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_3909.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_4025.JPG" loading="lazy">
+            </div>
+            <div class="column">
+              <img src="assets/media/photography/20200803055053_IMG_2582.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_6568.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_5535.jpg" loading="lazy">
+              <img src="assets/media/photography/20200421125126_IMG_1786.IG.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_4162.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_3550.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_5603.jpg" loading="lazy">
+              <img src="assets/media/photography/IMG_4003.JPG" loading="lazy">
+              <img src="assets/media/photography/IMG_5662.jpg" loading="lazy">
+            </div>
+          </div>
     </main>
     <div class="container">
         <footer class="responsive-1620">
@@ -102,6 +98,7 @@
             </section>
             <section class="rights">
                 <a class="rights">© <i id="dateFooter" style="font-style: normal;"></i> - ყველა უფლება დაცულია</a>
+                <a class="rights">© <i id="date" style="display: none;"></i> - ყველა უფლება დაცულია</a>
             </section>
         </footer>
     </div>
