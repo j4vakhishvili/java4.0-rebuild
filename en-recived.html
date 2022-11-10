@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ge" prefix="og: https://www.j4vakhishvili.tk/recived">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#FB2477">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="georgian">
+        <meta name="distribution" content="georgian">
+        <title>Contact : J4vakhishvili - Digital Portfolio</title>
+        <meta name="description" content="მოგესალმები ნიკოლოზ ჯავახიშვილის ციფრულ პორტფოლიოში, იგი არის გრაფიკული დიზაინერი და ვებდეველოპერი, მეტის გასაგებად ეწვიეთ საიტს ツ">
+        <meta name="author" content="J4vakhishvili, ნიკოლოზ ჯავახიშვილი">
+        <meta name="copyright" content="J4vakhishvili">
+        <meta property="og:title" content="J4vakhishvili - Digital Portfolio">
+        <meta property="og:url" content="https://www.j4vakhishvili.tk/recived">
+        <meta property="og:image" content="https://www.j4vakhishvili.tk/assets/media/decoration/welcome-to-my-digital-portfolio-j4.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/icons/webicon.png">
+        <link rel="canonical" href="https://www.j4vakhishvili.tk/recived">
+        <link rel="stylesheet" href="assets/style/default.css">
+        <link rel="stylesheet" href="assets/style/main.css">
+        <link rel="stylesheet" href="assets/style/header.css">
+        <link rel="stylesheet" href="assets/style/footer.css">
+        <link rel="stylesheet" href="assets/style/portfolio.css">
+        <link rel="stylesheet" href="assets/style/about.css">
+        <link rel="stylesheet" href="assets/style/contact.css">
+        <link rel="stylesheet" href="assets/style/snowflakes.css" id="winterCSS">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1 onclick="window.location.href='en-portfolio'" style="cursor: pointer;">J4vakhishvili</h1>
+            <img src="assets/icons/webicon.png" alt="J4vakhishvili logo" onclick="window.location.href='en-portfolio'" class="logo">
+            <div class="headBtns">
+                <div class="contact head-btn" onclick="window.location.href='en-contact'"></div>
+                <div class="dark-mode head-btn" bis_skin_checked="1">
+                    <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="separate-main">
+            <footer>
+                <section class="social">
+                    <a onclick="urlOne()" class="social" id="socialNameOne">YouTube</a>
+                    <a onclick="urlTwo()" class="social" id="socialNameTwo">Dribbble</a>
+                    <a onclick="urlThree()" class="social" id="socialNameThree">Facebook</a>
+                </section>
+                <section class="about">
+                    <a class="about" onclick="openAbout()">About me</a>
+                    <a class="about" onclick="openResume()">Resume</a>
+                </section>
+                <section class="rights">
+                    <a class="rights">© <i id="date" style="font-style: normal;"></i> - All rights reserved</a>
+                </section>
+            </footer>
+        </section>
+        <section class="fillthegap"></section>
+        <section class="separate-content">
+            <center>
+                <h2>Message received</h2>
+                <h3>I will contact you soon</h3>
+                <button class="submit" onclick="window.location.href='en-portfolio'">Home page</button>
+            </center>
+        </section>
+    </main>
+    <div class="container">
+        <footer class="responsive-1620">
+            <section class="social">
+                <a onclick="urlOne()" class="social" id="socialLinkOne">YouTube</a>
+                <a onclick="urlTwo()" class="social" id="socialLinkTwo">Dribbble</a>
+                <a onclick="urlThree()" class="social" id="socialLinkThree">Facebook</a>
+            </section>
+            <section class="about">
+                <a class="about" onclick="openAbout()">About me</a>
+                <a class="about" onclick="openResume()">Resume</a>
+            </section>
+            <section class="rights">
+                <a class="rights">© <i id="dateFooter" style="font-style: normal;"></i> - All rights reserved</a>
+            </section>
+        </footer>
+    </div>
+    <section class="backgroundModal"  id="aboutMe">
+        <div class="makeMeCentered">
+            <div class="modal">
+                <p class="aboutMe">Hi, You've landed on my digital portfolio ツ<br>
+                    My name is Nick Javakhishvili, I'm a Graphic Designer, Front-End Developer, Unity Developer (C#) & photographer, Here you can get to know and take a look at my works.
+                    <a href="en-about" class="link">Click here to learn more ツ</a>
+                </p>
+            </div>
+            <button class="close" id="close" onclick="closeAbout()">Close</button>
+        </div>
+    </section>
+    <section class="backgroundModal"  id="resume">
+        <div class="makeMeCentered">
+            <div class="modal modalTwo">
+                <a href="assets/media/gallery/resume.pdf" target="_blank">
+                    <section class="resume">
+                        <section class="onHoverCover">
+                            <div class="downloadIcon"></div>
+                        </section>
+                    </section>
+                </a>
+            </div>
+            <button class="close closeTwo" id="close" onclick="closeResume()">Close</button>
+        </div>
+    </section>
+    <div class="snowflakes" id="snowflakes">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+    </div>
+    <script src="assets/script/darkmode.js"></script>
+    <script src="assets/script/date.js" async defer></script>
+    <script src="assets/script/navigation.js" async defer></script>
+    <script src="assets/script/categories.js" async defer></script>
+    <script src="assets/script/modal.js" async defer></script>
+    <script src="assets/script/footer.js" async defer></script>
+</body>
+</html>
