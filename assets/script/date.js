@@ -22,13 +22,13 @@ if(calendar == "11" || calendar == "0"){
     snowflakesHTML.style.display = "block";
 }
 //header-background
-// var imgCount = 4;
-//     var dir = 'assets/media/decoration/covers/';
-//     var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
-//     var images = new Array
-//             images[1] = "wineweb.jpg",
-//             images[2] = "wineweb.jpg",
-//             images[3] = "wineweb.jpg",
-//             images[4] = "wineweb.jpg",
-//             // header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
-//             header.style.background = "url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png), #fb2477";
+var imgCount = 4;
+    var dir = 'assets/media/decoration/covers/';
+    var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+    var images = new Array
+            images[1] = "newyearcoverOne.jpg",
+            images[2] = "newyearcoverTwo.jpg",
+            images[3] = "newyearcoverOne.jpg",
+            images[4] = "newyearcoverTwo.jpg",
+            header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
+            // header.style.background = "url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png), #fb2477";
