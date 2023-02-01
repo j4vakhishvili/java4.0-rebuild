@@ -31,4 +31,4 @@ var imgCount = 4;
             images[3] = "newyearcoverThree.jpg",
             images[4] = "newyearcoverFour.jpg",
             header.style.background = "url(" + dir + images[randomCount] + "), #fb2477";
-            // header.style.background = "url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png), #fb2477";
+            header.style.background = "url(https://russiannobility.org/wp-content/uploads/2022/03/Flag_of_Ukraine.svg.png), #fb2477";
